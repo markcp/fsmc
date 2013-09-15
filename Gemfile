@@ -16,7 +16,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :development do 
+group :development do
   gem 'guard-minitest'
   gem 'spring'
 end
