@@ -1,6 +1,6 @@
 Fsmc::Application.routes.draw do
-  get "static_pages/about"
-  get "static_pages/links"
+  match "/about", to: "static_pages#about", via: 'get'
+  match "/links", to: "static_pages#links", via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -41,7 +41,7 @@ Fsmc::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

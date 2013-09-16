@@ -4,6 +4,7 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 
 gem 'pg'
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
 
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
