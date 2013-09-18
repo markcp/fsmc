@@ -1,9 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  name: MyString
-  email: MyString
-
-two:
-  name: MyString
-  email: MyString
+mark:
+  name: 'Mark Pittillo'
+  email: 'markcp@gmail.com'
+  password_digest: '$2a$10$qiDYFdpewEOSJ8DTzPzqxeTw73c4DpVzBMVBjV1CAZFgLQB9PI.RK' # foobar
