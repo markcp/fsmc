@@ -5,6 +5,7 @@ gem 'rails', '4.0.0'
 
 gem 'pg'
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
+gem 'tmdb-api'
 
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'sass-rails', '~> 4.0.0'

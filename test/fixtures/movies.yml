@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+the_shining:
+  title: "The Shining"
+  title_index: "Shining, The"
+  director: "Stanley Kubrick"
+  year: "1980"
+  skandies_year: nil
+  short: false

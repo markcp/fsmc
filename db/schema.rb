@@ -11,10 +11,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130916011243) do
+ActiveRecord::Schema.define(version: 20130920152948) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "formats", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "formats", ["name"], name: "index_formats_on_name", using: :btree
+
+  create_table "movies", force: true do |t|
+    t.string   "title"
+    t.string   "title_index"
+    t.string   "director"
+    t.string   "year"
+    t.string   "skandies_year"
+    t.boolean  "short",         default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "movies", ["skandies_year", "title_index"], name: "index_movies_on_skandies_year_and_title_index", using: :btree
+  add_index "movies", ["skandies_year"], name: "index_movies_on_skandies_year", using: :btree
+  add_index "movies", ["year"], name: "index_movies_on_year", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "name"
@@ -26,5 +49,17 @@ ActiveRecord::Schema.define(version: 20130916011243) do
   end
 
   add_index "users", ["remember_token"], name: "index_users_on_remember_token", using: :btree
+
+  create_table "viewings", force: true do |t|
+    t.integer  "movie_id"
+    t.datetime "date"
+    t.integer  "format_id"
+    t.string   "rating"
+    t.text     "notes"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "viewings", ["date"], name: "index_viewings_on_date", using: :btree
 
 end
