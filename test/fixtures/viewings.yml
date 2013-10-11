@@ -3,11 +3,11 @@
 one:
   movie_id: 1
   date: 2013-09-20 10:28:59
-  format: 
+  format:
   notes: MyText
 
 two:
-  movie_id: 1
+  movie_id: 2
   date: 2013-09-20 10:28:59
-  format: 
+  format:
   notes: MyText

@@ -1,0 +1,57 @@
+<% provide(:title, 'New viewing') %>
+<h1>New viewing</h1>
+
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    <%= form_for(@viewing, role: 'form') do |f| %>
+      <%= f.fields_for :movie, @viewing.movie do |mf| %>
+        <div class="form-group">
+          <%= .label :title %>
+          <%= mf.text_field :title, class: 'form-control' %>
+        </div>
+
+        <div class="form-group">
+          <%= mf.label :director %>
+          <%= mf.text_field :director, class: 'form-control' %>
+        </div>
+
+        <div class="form-group">
+          <%= mf.label :year %>
+          <%= mf.text_field :year, class: 'form-control' %>
+        </div>
+
+        <div class="form-group">
+          <%= mf.label :skandies_year %>
+          <%= mf.text_field :skandies_year, class: 'form-control' %>
+        </div>
+
+        <div class="form-group">
+          <%= mf.label :short %>
+          <%= mf.check_box :short, class: 'form-control' %>
+        </di>
+      <% end %>
+
+      <div class="form-group">
+        <%= f.label :date %>
+        <%= f.text_field :date, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :format_id %>
+        <%= f.text_field :format_id, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :rating %>
+        <%= f.text_field :rating, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :notes %>
+        <%= f.text_area :notes, class: 'form-control' %>
+      </div>
+
+      <%= f.button "Create viewing", class: "btn btn-lrg btn-primary" %>
+    <% end %>
+  </div>
+</div>

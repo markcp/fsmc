@@ -28,16 +28,18 @@ ActiveRecord::Schema.define(version: 20130920152948) do
     t.string   "title"
     t.string   "title_index"
     t.string   "director"
-    t.string   "year"
-    t.string   "skandies_year"
-    t.boolean  "short",         default: false
+    t.integer  "year"
+    t.integer  "current_rating"
+    t.integer  "skandies_year"
+    t.boolean  "short",          default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  add_index "movies", ["skandies_year", "current_rating"], name: "index_movies_on_skandies_year_and_current_rating", using: :btree
   add_index "movies", ["skandies_year", "title_index"], name: "index_movies_on_skandies_year_and_title_index", using: :btree
-  add_index "movies", ["skandies_year"], name: "index_movies_on_skandies_year", using: :btree
-  add_index "movies", ["year"], name: "index_movies_on_year", using: :btree
+  add_index "movies", ["title_index"], name: "index_movies_on_title_index", using: :btree
+  add_index "movies", ["year", "current_rating"], name: "index_movies_on_year_and_current_rating", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "name"
