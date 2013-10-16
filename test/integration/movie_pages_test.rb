@@ -29,13 +29,15 @@ class MoviePagesTest < ActionDispatch::IntegrationTest
 
   test "edit an existing movie with viewing" do
 
-    post_via_redirect("/movies", movie: { title: "The Shining", director: "Stanley Kubrick",
+    assert_no_difference('Movie.count') do
+      patch_via_redirect("/movies/" + movies(:the_shining).id.to_s, movie: { title: "The Shining", director: "Stanley Kubrick",
                                           year: "1980", skandies_year: "",
                                           short: "0", current_rating: "",
                                           viewings_attributes: { "0" => {
                                           date: "2013-10-08", format_id: "2",
-                                          rating: "56", notes: "Notes"
-                                         }}})
+                                          rating: "60", notes: "Notes"
+                                          }}})
+    end
     assert_template 'show'
   end
 end

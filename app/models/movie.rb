@@ -1,6 +1,8 @@
 class Movie < ActiveRecord::Base
-  has_many :viewings
-  accepts_nested_attributes_for :viewings
+  has_many :viewings, dependent: :destroy
+  accepts_nested_attributes_for :viewings,
+                                reject_if: proc { |attributes| attributes['date'].blank? },
+                                allow_destroy: true
 
   before_validation :build_title_index
 

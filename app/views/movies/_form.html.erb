@@ -1,55 +1,68 @@
 <div class="row">
   <div class="col-md-4 col-md-offset-4">
     <%= form_for(@movie, role: 'form') do |f| %>
-      <div class="form-group">
-        <%= f.label :title %>
-        <%= f.text_field :title, class: 'form-control' %>
-      </div>
+      <%= render 'shared/error_messages' %>
 
-      <div class="form-group">
-        <%= f.label :director %>
-        <%= f.text_field :director, class: 'form-control' %>
-      </div>
+      <div class="movie-fields">
+        <div class="form-group">
+          <%= f.label :title %>
+          <%= f.text_field :title, class: 'form-control' %>
+        </div>
 
-      <div class="form-group">
-        <%= f.label :year %>
-        <%= f.text_field :year, class: 'form-control' %>
-      </div>
+        <div class="form-group">
+          <%= f.label :director %>
+          <%= f.text_field :director, class: 'form-control' %>
+        </div>
 
-      <div class="form-group">
-        <%= f.label :skandies_year %>
-        <%= f.text_field :skandies_year, class: 'form-control' %>
-      </div>
+        <div class="form-group">
+          <%= f.label :year %>
+          <%= f.text_field :year, class: 'form-control' %>
+        </div>
 
-      <div class="form-group">
-        <%= f.label :short %>
-        <%= f.check_box :short, class: 'form-control' %>
-      </div>
+        <div class="form-group">
+          <%= f.label :skandies_year %>
+          <%= f.text_field :skandies_year, class: 'form-control' %>
+        </div>
 
-      <div class="form-group">
-        <%= f.label :current_rating %>
-        <%= f.text_field :current_rating, class: 'form-control' %>
+        <div class="checkbox">
+          <%= f.check_box :short %>
+          <%= f.label :short %>
+        </div>
+
+        <% if @movie.current_rating %>
+          <div class="form-group">
+            <%= f.label :current_rating %>
+            <%= f.text_field :current_rating, class: 'form-control' %>
+          </div>
+        <% end %>
       </div>
 
       <%= f.fields_for :viewings do |vf| %>
-        <div class="form-group">
-          <%= vf.label :date %>
-          <%= vf.text_field :date, class: 'form-control' %>
-        </div>
+        <div class="viewing-fields well">
+          <div class="form-group">
+            <%= vf.label :date %>
+            <%= vf.text_field :date, class: 'form-control', id: 'datepicker' %>
+          </div>
 
-        <div class="form-group">
-          <%= vf.label :format_id %>
-          <%= vf.text_field :format_id, class: 'form-control' %>
-        </div>
+          <div class="form-group">
+            <%= vf.label :format_id %>
+            <%= vf.select(:format_id, @formats.collect { |f| [f.name, f.id] }, {}, class: 'form-control') %>
+          </div>
 
-        <div class="form-group">
-          <%= vf.label :rating %>
-          <%= vf.text_field :rating, class: 'form-control' %>
-        </div>
+          <div class="form-group">
+            <%= vf.label :rating %>
+            <%= vf.text_field :rating, class: 'form-control' %>
+          </div>
 
-        <div class="form-group">
-          <%= vf.label :notes %>
-          <%= vf.text_area :notes, class: 'form-control' %>
+          <div class="form-group">
+            <%= vf.label :notes %>
+            <%= vf.text_area :notes, class: 'form-control', rows: 15 %>
+          </div>
+
+          <div class="checkbox form-group">
+            <%= vf.check_box '_destroy' %>
+            <%= vf.label :_destroy, 'Destroy' %>
+          </div>
         </div>
       <% end %>
 
