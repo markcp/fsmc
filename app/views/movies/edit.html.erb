@@ -1,5 +1,5 @@
 <h1>Edit movie</h1>
 
-<%= link_to "Delete movie and viewings", @movie, method: :delete, data: { confirm: "Are you sure?" } %>
-
 <%= render 'form' %>
+
+<p class="delete-movie-link"><%= link_to "Delete movie and viewings", @movie, method: :delete, data: { confirm: "Are you sure?" } %></p>
