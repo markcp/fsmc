@@ -19,10 +19,10 @@ class AuthenticationPagesTest < ActionDispatch::IntegrationTest
     get "/signin"
 
     post_via_redirect "/sessions", { session: { email: users(:mark).email, password: 'foobar' } }
-    path.must_equal('/about')
+    path.must_equal('/movies/search')
 
     delete_via_redirect "/signout"
-    path.must_equal('/links')
+    path.must_equal('/')
   end
 
 end

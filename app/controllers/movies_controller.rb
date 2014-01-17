@@ -1,7 +1,34 @@
 class MoviesController < ApplicationController
   before_action :signed_in_user, except: [ :index ]
 
-  def index
+  def skandies_by_rating
+    if params[:year]
+      @year = params[:year]
+    else
+      @year = Time.now.year.to_s
+    end
+    @movies = Movie.where(skandies_year: @year).order("current_rating DESC").all
+  end
+
+  def skandies_by_title
+    if params[:year]
+      @year = params[:year]
+    else
+      @year = Time.now.year.to_s
+    end
+    @movies = Movie.where(skandies_year: @year).order("title").all
+  end
+
+  def all_by_rating
+    @movies = Movie.all.order("current_rating DESC")
+  end
+
+  def all_by_title
+    @movies = Movie.all.order("title")
+  end
+
+  def all_by_year
+    @movies = Movie.all.order("year, current_rating DESC")
   end
 
   def search

@@ -21,4 +21,8 @@ class Movie < ActiveRecord::Base
   def self.search(title)
     where(title: title)
   end
+
+  def display
+    title + " (" + director + ", " + year.to_s + ") " + current_rating.to_s
+  end
 end

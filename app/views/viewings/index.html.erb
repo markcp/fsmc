@@ -1,2 +1,23 @@
-<h1>Viewings#index</h1>
-<p>Find me in app/views/viewings/index.html.erb</p>
+<h1>Viewing Journal <%= @year %></h1>
+<% @viewings.each do |viewing| %>
+  <%= viewing.display_format %><br/>
+  <div class="viewing-details">
+
+    <% if viewing.is_on_film? %>
+      <span class="glyphicon glyphicon-film"></span>
+    <% end %>
+    <% if viewing.is_on_blu_ray? %>
+      <span class="label bd">BD</span>
+    <% end %>
+    <% if viewing.is_on_dvd? %>
+      <span class="label dvd">DVD</span>
+    <% end %>
+    <% if viewing.is_on_dcp? %>
+      <span class="label dcp">DCP</span>
+    <% end %>
+    <% if viewing.is_repeat_viewing? %>
+      <span class="glyphicon glyphicon-repeat"></span>
+    <% end %>
+  </div>
+  <br/>
+<% end %>

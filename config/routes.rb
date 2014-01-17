@@ -1,4 +1,7 @@
 Fsmc::Application.routes.draw do
+
+  root to: "viewings#index"
+
   match "/about", to: "static_pages#about", via: 'get'
   match "/links", to: "static_pages#links", via: 'get'
 
@@ -6,6 +9,11 @@ Fsmc::Application.routes.draw do
   resources :viewings, only: [:index]
   resources :movies do
     get 'search', on: :collection
+    get 'all_by_rating', on: :collection
+    get 'all_by_title', on: :collection
+    get 'all_by_year', on: :collection
+    get 'skandies_by_rating', on: :collection
+    get 'skandies_by_title', on: :collection
   end
 
   match '/signin', to: 'sessions#new', via: 'get'

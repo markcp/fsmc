@@ -2,8 +2,17 @@ require 'test_helper'
 
 class MoviePagesTest < ActionDispatch::IntegrationTest
   fixtures :movies
+  fixtures :users
+
+  setup do
+    get "/signin"
+    assert_response :success
+    post_via_redirect("/sessions", { session: { email: users(:mark).email, password: 'foo' } })
+  end
 
   test "search for a previously seen movie" do
+    get "/signin"
+    post_via_redirect("/sessions", { session: { email: users(:mark).email, password: 'foo' } })
     get_via_redirect("/movies/search", { title: "The Shining" })
     assert_equal("/movies/search", path)
   end

@@ -16,6 +16,12 @@ html {
   overflow-y: scroll;
 }
 
+body {
+  font-family: 'Fenix', serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
 section {
   overflow: auto;
 }
@@ -35,18 +41,19 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+  font-size: 2em;
+  letter-spacing: 1px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 h2 {
   font-size: 1.2em;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
@@ -59,6 +66,33 @@ p {
 }
 
 /* header */
+
+header {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+/* content */
+.viewing-details {
+  font-family: "oswald", sans-serif;
+  font-weight: 300;
+}
+.bd {
+  background-color: #996;
+  color: white;
+}
+
+.dcp {
+  background-color: #c69;
+  color: white;
+  padding: 2px;
+}
+
+.bd {
+  background-color: green;
+  color: white;
+  padding: 2px;
+}
 
 /* movie form */
 div.movie-fields {

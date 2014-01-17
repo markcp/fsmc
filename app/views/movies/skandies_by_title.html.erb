@@ -1,0 +1,6 @@
+<h1>Skandies films for <%= @year %></h1>
+<h2>by title</h2>
+
+<% @movies.each do |movie| %>
+  <%= movie.display %><br/>
+<% end %>
