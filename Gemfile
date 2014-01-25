@@ -4,7 +4,6 @@ ruby '2.1.0'
 gem 'rails', '4.0.2'
 
 gem 'pg'
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
 
 gem 'bcrypt-ruby', '~> 3.1.2'
 gem 'sass-rails', '~> 4.0.0'
@@ -20,13 +19,16 @@ group :doc do
 end
 
 group :development do
-  gem 'guard-minitest'
   gem 'spring'
 end
 
+group :development, :test do
+  gem 'rspec-rails'
+end
+
 group :test do
-  gem 'minitest-spec-rails'
-  gem 'minitest-colorize'
+  gem 'selenium-webdriver'
+  gem 'capybara'
   gem 'terminal-notifier-guard'
 end
 
