@@ -1,8 +1,7 @@
-<h1>Viewing Journal <%= @year %></h1>
+<h2>Viewing Journal <%= @year %></h2>
 <% @viewings.each do |viewing| %>
   <%= viewing.display_format %><br/>
   <div class="viewing-details">
-
     <% if viewing.is_on_film? %>
       <span class="glyphicon glyphicon-film"></span>
     <% end %>

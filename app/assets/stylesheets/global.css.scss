@@ -1,0 +1,52 @@
+body {
+  font-family: 'Fenix', serif;
+  font-size: 17px;
+  background-color: #eee;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+// header
+
+.top-bar {
+}
+
+// side nav
+
+.side-nav {
+  margin-top: 15px;
+  font-family: 'Oswald', serif;
+  letter-spacing: 1px;
+}
+
+// main
+
+main {
+  margin-top: 15px;
+}
+// footer
+footer {
+  text-align: right;
+  font-size: .8em;
+  padding-right: 10px;
+}
+
+.debug {
+  margin-left: 20px;
+}
