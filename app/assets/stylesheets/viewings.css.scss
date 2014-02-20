@@ -1,3 +1,11 @@
-// Place all the styles related to the viewings controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.viewing-journal {
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
