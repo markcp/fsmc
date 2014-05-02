@@ -1,5 +1,12 @@
-<li><%= link_to "About", about_path %></li>
-<li><%= link_to "Links", about_path %></li>
-<% if signed_in? %>
-  <li><%= link_to "Sign out", signout_path, method: 'delete' %></li>
-<% end %>
+<ul class="left">
+  <li><%= link_to "Movies 2013", about_path %></li>
+  <li><%= link_to "Movies 2012", about_path %></li>
+  <li><%= link_to "Lists", about_path %></li>
+</ul>
+<ul class="right">
+  <li><%= link_to "About", about_path %></li>
+  <li><%= link_to "Links", about_path %></li>
+  <% if signed_in? %>
+    <li><%= link_to "Sign out", signout_path, method: 'delete' %></li>
+  <% end %>
+</ul>
