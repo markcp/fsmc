@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
 
   def links
   end
+
+  def archive
+  end
 end

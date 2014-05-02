@@ -4,6 +4,7 @@ Fsmc::Application.routes.draw do
 
   match "/about", to: "static_pages#about", via: 'get'
   match "/links", to: "static_pages#links", via: 'get'
+  match "/archive", to: "static_pages#archive", via: 'get'
 
   resources :sessions, only: [:new, :create, :destroy]
   resources :viewings, only: [:index]
