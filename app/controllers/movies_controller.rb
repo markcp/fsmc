@@ -1,5 +1,5 @@
 class MoviesController < ApplicationController
-  before_action :signed_in_user, except: [ :index ]
+  before_action :signed_in_user, except: [ :skandies_by_rating, :skandies_by_title, :all_by_rating, :all_by_title, :all_by_year ]
 
   def skandies_by_rating
     if params[:year]
