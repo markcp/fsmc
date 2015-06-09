@@ -6,17 +6,16 @@ gem 'rails', '4.2.1'
 gem 'pg'
 
 gem 'foundation-rails'
-gem 'bcrypt-ruby', '~> 3.1.2'
-gem 'sass-rails', '~> 4.0.0'
+gem 'bcrypt', '~> 3.1.7'
+gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 2.0'
 gem 'jquery-ui-rails'
 
 group :development do
-  gem 'spring'
   gem 'spring-commands-rspec'
   gem 'rails_layout'
   gem 'mysql'
@@ -25,6 +24,9 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
 end
 
 group :test do
@@ -38,5 +40,5 @@ group :production do
 end
 
 group :doc do
-  gem 'sdoc', require: false
+  gem 'sdoc', '~> 0.4.0', require: false
 end
