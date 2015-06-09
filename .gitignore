@@ -12,6 +12,9 @@
 # Ignore vendored gems
 /vendor/bundle
 
+# Ignore Spring files.
+/spring/*.pid
+
 # Ignore other unneeded files.
 database.yml
 doc/
