@@ -16,14 +16,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'jquery-ui-rails'
 
 group :development do
-  gem 'spring-commands-rspec'
   gem 'rails_layout'
   gem 'mysql'
 end
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'guard-rspec'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
