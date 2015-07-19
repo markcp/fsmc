@@ -9,4 +9,12 @@ module ApplicationHelper
       "#{base_title} | #{page_title}"
     end
   end
+
+  def current_year
+    Time.new.year
+  end
+
+  def last_year
+    current_year - 1
+  end
 end

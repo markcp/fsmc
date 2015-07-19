@@ -1,6 +1,6 @@
 <ul class="side-nav">
-  <li><%= link_to "Movies 2014", viewings_path %></li>
-  <li><%= link_to "Movies 2013", viewings_path(year: 2013) %></li>
+  <li><%= link_to "Movies " + current_year.to_s, viewings_path %></li>
+  <li><%= link_to "Movies " + last_year.to_s, viewings_path(year: last_year) %></li>
   <li><%= link_to "Older stuff", archive_path %></li>
   <li><%= link_to "Master Film List", all_by_year_movies_path %></li>
   <li><%= link_to "About", about_path %></li>
