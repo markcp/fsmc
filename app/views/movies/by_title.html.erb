@@ -1,0 +1,9 @@
+<h2><%= @year + " Movies by Title" %></h1>
+<div id="submenu">
+  <%= link_to @year + " Viewing Log", viewings_path(year: @year) %> |
+  <%= link_to @year + " Movies Ranked", by_rating_movies_path(year: @year) %>
+</div>
+
+<% @movies.each do |movie| %>
+  <%= movie.display %> <span class="rating"><%= movie.current_rating %></span><br/>
+<% end %>

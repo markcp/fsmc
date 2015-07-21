@@ -23,6 +23,6 @@ class Movie < ActiveRecord::Base
   end
 
   def display
-    title + " (" + director + ", " + year.to_s + ") " + current_rating.to_s
+    title + " (" + director + ", " + year.to_s + ") "
   end
 end

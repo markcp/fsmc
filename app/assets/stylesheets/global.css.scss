@@ -19,7 +19,7 @@ h1 {
 h2 {
   font-size: 2em;
   letter-spacing: 1px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 // header
@@ -48,6 +48,10 @@ nav {
 
 main {
   margin-top: 15px;
+}
+
+#submenu {
+  margin: -20px 0 20px 0;
 }
 
 .rating {

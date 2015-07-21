@@ -13,8 +13,8 @@ Fsmc::Application.routes.draw do
     get 'all_by_rating', on: :collection
     get 'all_by_title', on: :collection
     get 'all_by_year', on: :collection
-    get 'skandies_by_rating', on: :collection
-    get 'skandies_by_title', on: :collection
+    get 'by_rating', on: :collection
+    get 'by_title', on: :collection
   end
 
   match '/signin', to: 'sessions#new', via: 'get'
