@@ -5,5 +5,9 @@
 </div>
 
 <% @movies.each do |movie| %>
-  <%= movie.display %> <span class="rating"><%= movie.current_rating %></span><br/>
+  <% if signed_in? %>
+    <%= link_to movie.title, edit_movie_path(movie) %> <%= movie.director_and_year_display %> <span class="rating"><%= movie.current_rating %></span><br/>
+  <% else %>
+     <%= movie.title %> <%= movie.director_and_year_display %> <span class="rating"><%= movie.current_rating %></span><br/>
+  <% end %>
 <% end %>

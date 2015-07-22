@@ -22,7 +22,7 @@ class Movie < ActiveRecord::Base
     where(title: title)
   end
 
-  def display
-    title + " (" + director + ", " + year.to_s + ") "
+  def director_and_year_display
+    " (" + director + ", " + year.to_s + ") "
   end
 end

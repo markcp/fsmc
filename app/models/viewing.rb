@@ -11,8 +11,12 @@ class Viewing < ActiveRecord::Base
 
   default_scope { order('date DESC') }
 
-  def display_format
-    date.strftime("%d %b") + ". " + movie.title + " (" + movie.director + ", " + movie.year.to_s + ") "
+  def date_display_format
+    date.strftime("%d %b") + ". "
+  end
+
+  def director_and_year_display_format
+    " (" + movie.director + ", " + movie.year.to_s + ") "
   end
 
   def is_repeat_viewing?
