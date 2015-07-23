@@ -44,7 +44,7 @@
         <div class="viewing-fields well">
           <div class="form-group">
             <%= vf.label :date %>
-            <%= vf.text_field :date, class: 'form-control', class: 'datepicker', value: vf.object.date.try('strftime','%-m/%-d/%Y') %>
+            <%= vf.text_field :date, class: 'form-control', class: 'datepicker', value: vf.object.date.try('strftime','%Y-%-m-%-d') %>
           </div>
 
           <div class="form-group">
