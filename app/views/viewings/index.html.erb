@@ -3,12 +3,8 @@
   <%= link_to @year + " Movies Ranked", by_rating_movies_path(year: @year) %> |
   <%= link_to @year + " Movies by Title", by_title_movies_path(year: @year) %>
 </div>
-<ul id="viewing-journal">
+<ul class="movie-list">
   <% @viewings.each do |viewing| %>
-    <% if signed_in? %>
-      <li><%= viewing.date_display_format %> <%= link_to viewing.movie.title, edit_movie_path(viewing.movie) %> <%= viewing.director_and_year_display_format %> <span class="rating"><%= viewing.rating %></span></li>
-    <% else %>
-      <li><%= viewing.date_display_format %> <%= viewing.movie.title %> <%= viewing.director_and_year_display_format %> <span class="rating"><%= viewing.rating %></span></li>
+    <li><%= viewing.date_display_format %> <%= viewing.movie.title %> <%= viewing.director_and_year_display_format %> <span class="rating"><%= viewing.rating %></span> <% if signed_in? %><span class="edit-link"><%= link_to 'e', edit_movie_path(viewing.movie) %></span><% end %></li>
     <% end %>
-  <% end %>
 </ul>

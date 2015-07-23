@@ -5,15 +5,12 @@
 </div>
 
 <% hold_rating = 11 %>
+<ul class="movie-list">
 <% @movies.each_with_index do |movie, index| %>
   <% if (movie.current_rating / 10) < hold_rating  && index != 0 %>
     <br/>
   <% end %>
   <% hold_rating = (movie.current_rating / 10) %>
-  <% if signed_in? %>
-    <%= link_to movie.title, edit_movie_path(movie) %> <%= movie.director_and_year_display %> <span class="rating"><%= movie.current_rating %></span><br/>
-  <% else %>
-    <%= movie.title %> <%= movie.director_and_year_display %> <span class="rating"><%= movie.current_rating %></span><br/>
-  <% end %>
+  <li><%= movie.title %> <%= movie.director_and_year_display %> <span class="rating"><%= movie.current_rating %></span> <% if signed_in? %><span class="edit-link"><%= link_to 'e', edit_movie_path(movie) %></span><% end %></li>
 <% end %>
-
+</ul>
