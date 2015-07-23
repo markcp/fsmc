@@ -37,11 +37,14 @@
         <% end %>
       </div>
 
+
+
       <%= f.fields_for :viewings do |vf| %>
+        <h3>Viewing</h3>
         <div class="viewing-fields well">
           <div class="form-group">
             <%= vf.label :date %>
-            <%= vf.text_field :date, class: 'form-control', id: 'datepicker' %>
+            <%= vf.text_field :date, class: 'form-control', class: 'datepicker', value: vf.object.date.try('strftime','%-m/%-d/%Y') %>
           </div>
 
           <div class="form-group">
@@ -66,7 +69,7 @@
         </div>
       <% end %>
 
-      <%= f.button "Create movie", class: "btn btn-lrg btn-primary" %>
+      <%= f.button "Save", class: "btn btn-lrg btn-primary" %>
     <% end %>
   </div>
 </div>
