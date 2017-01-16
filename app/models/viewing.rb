@@ -40,21 +40,45 @@ class Viewing < ActiveRecord::Base
   end
 
   def self.pull_from_file
-    movie_doesnt_exist = 0
-    CSV.foreach('movies.csv') do |row|
+    CSV.foreach('movies_import.csv') do |row|
       movie = Movie.where(title: row[1].strip, year: row[3].strip).first
       if movie
+        puts "movie"
         viewing = Viewing.new
         viewing.movie_id = movie.id
         viewing.date = Viewing.date_from_string(row[0])
+        viewing.format_id = 7
+        viewing.rating = row[4].strip
+        viewing.save
       else
-        movie_doesnt_exist = movie_doesnt_exist + 1
+        puts "no movie"
+        movie = Movie.new
+        movie.title = row[1].strip
+        movie.director = row[2].strip
+        movie.year = row[3].strip
+        movie.current_rating = row[4].strip
+        if row[5] && row[5].strip == 's'
+          movie.short = true
+        else
+          movie.short = false
+        end
+        if row[6]
+          puts "in row 6"
+          movie.skandies_year = row[6].strip
+          puts "row 6" + row[6].strip.to_s
+        end
+        movie.save
+        viewing = Viewing.new
+        viewing.movie_id = movie.id
+        viewing.date = Viewing.date_from_string(row[0])
+        viewing.format_id = 7
+        viewing.rating = row[4].strip
+        viewing.save
       end
     end
-    puts movie_doesnt_exist.to_s
   end
 
   def self.date_from_string(date_string)
-    Date.strptime(date_string + " 1998", "%d %b %Y")
+    Date.strptime(date_string, "%Y-%m-%d")
   end
 end

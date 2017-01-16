@@ -10,7 +10,7 @@ class Movie < ActiveRecord::Base
   validates :title_index, presence: true
   validates :director, presence: true
   validates :year, numericality: { greater_than: 1880, less_than: 2100 }
-  validates :skandies_year, numericality: { greater_than: 1999, less_than: 2069 }, allow_nil: true
+  validates :skandies_year, numericality: { greater_than: 1997, less_than: 2069 }, allow_nil: true
   validates :short, inclusion: { in: [ true, false] }
   validates :current_rating, numericality: { greater_than: 0, less_than_or_equal_to: 100 }
 

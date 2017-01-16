@@ -17,7 +17,7 @@ gem 'jquery-ui-rails'
 
 group :development do
   gem 'rails_layout'
-  gem 'mysql'
+  # gem 'mysql'
 end
 
 group :development, :test do
