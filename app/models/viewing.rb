@@ -43,10 +43,10 @@ class Viewing < ActiveRecord::Base
     CSV.foreach('movies_import.csv') do |row|
       movie = Movie.where(title: row[1].strip, year: row[3].strip).first
       if movie
-        puts "movie"
+        puts "movie "
         viewing = Viewing.new
         viewing.movie_id = movie.id
-        viewing.date = Viewing.date_from_string(row[0])
+        viewing.date = Viewing.date_from_string(row[0].strip)
         viewing.format_id = 7
         viewing.rating = row[4].strip
         viewing.save
@@ -69,8 +69,9 @@ class Viewing < ActiveRecord::Base
         end
         movie.save
         viewing = Viewing.new
+        puts "row[0]" + row[0]
         viewing.movie_id = movie.id
-        viewing.date = Viewing.date_from_string(row[0])
+        viewing.date = Viewing.date_from_string(row[0].strip)
         viewing.format_id = 7
         viewing.rating = row[4].strip
         viewing.save
