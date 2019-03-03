@@ -47,7 +47,15 @@ class Viewing < ActiveRecord::Base
         viewing = Viewing.new
         viewing.movie_id = movie.id
         viewing.date = Viewing.date_from_string(row[0].strip)
-        viewing.format_id = 7
+        if row[8] == 'f'
+          viewing.format_id = 7
+        elsif row[8] == 'p'
+          viewing.format_id = 6
+        elsif row[8] == 'v'
+          viewing.format_id = 8
+        else
+          viewing.format_id = 3
+        end
         viewing.rating = row[4].strip
         viewing.save
       else
@@ -72,7 +80,15 @@ class Viewing < ActiveRecord::Base
         puts "row[0]" + row[0]
         viewing.movie_id = movie.id
         viewing.date = Viewing.date_from_string(row[0].strip)
-        viewing.format_id = 7
+        if row[8] == 'f'
+          viewing.format_id = 7
+        elsif row[8] == 'p'
+          viewing.format_id = 6
+        elsif row[8] == 'v'
+          viewing.format_id = 8
+        else
+          viewing.format_id = 3
+        end
         viewing.rating = row[4].strip
         viewing.save
       end
