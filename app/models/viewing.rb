@@ -39,6 +39,12 @@ class Viewing < ActiveRecord::Base
     format.name == "DCP"
   end
 
+  def self.create_letterboxd_upload_file
+    CSV.foreach('movies_import.csv') do |row|
+
+    end
+  end
+
   def self.pull_from_file
     CSV.foreach('movies_import.csv') do |row|
       movie = Movie.where(title: row[1].strip, year: row[3].strip).first
@@ -47,12 +53,14 @@ class Viewing < ActiveRecord::Base
         viewing = Viewing.new
         viewing.movie_id = movie.id
         viewing.date = Viewing.date_from_string(row[0].strip)
-        if row[8] == 'f'
+        if row[7] == 'f'
           viewing.format_id = 7
-        elsif row[8] == 'p'
+        elsif row[7] == 'p'
           viewing.format_id = 6
-        elsif row[8] == 'v'
+        elsif row[7] == 'v'
           viewing.format_id = 8
+        elsif row[7] == 'c'
+          viewing.format_id = 2
         else
           viewing.format_id = 3
         end
@@ -80,12 +88,14 @@ class Viewing < ActiveRecord::Base
         puts "row[0]" + row[0]
         viewing.movie_id = movie.id
         viewing.date = Viewing.date_from_string(row[0].strip)
-        if row[8] == 'f'
+        if row[7] == 'f'
           viewing.format_id = 7
-        elsif row[8] == 'p'
+        elsif row[7] == 'p'
           viewing.format_id = 6
-        elsif row[8] == 'v'
+        elsif row[7] == 'v'
           viewing.format_id = 8
+        elsif row[7] == 'c'
+          viewing.format_id = 2
         else
           viewing.format_id = 3
         end

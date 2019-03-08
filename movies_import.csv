@@ -1,627 +1,273 @@
-2003-01-02,Alias Betty,Claude Miller,2001,57,f,2002,f,f
-2003-01-04,About Schmidt,Alexander Payne,2002,64,f,2002,f,f
-2003-01-06,Sunshine State,John Sayles,2002,51,f,2002,f,d
-2003-01-09,Intacto,Juan Carlos Fresnadillo,2001,74,f,2002,f,f
-2003-01-11,La Captive,Chantal Akerman,2000,64,f,2002,f,v
-2003-01-11,Daughter From Danang,Gail Dolgin & Vicente Franco,2002,73,f,2002,f,f
-2003-01-12,Narc,Joe Carnahan,2002,49,f,2002,f,f
-2003-01-13,Promises,Justine Shapiro,B.Z. Goldberg,2001,68,f,2002,f,f
-2003-01-14,The End of St. Petersburg,V.I. Pudovkin,1927,60,f,,f,d
-2003-01-18,Loulou,Maurice Pialat,1980,80,f,,f,d
-2003-01-20,The Hours,Stephen Daldry,2002,42,f,2002,f,f
-2003-01-21,The Love of Jeanne Ney,G.W. Pabst,1927,65,f,,f,d
-2003-01-23,In Praise of Love,Jean-Luc Godard,2001,66,f,2002,f,f
-2003-01-24,25th Hour,Spike Lee,2002,85,f,2002,f,f
-2003-01-25,The Exorcist III,William Peter Blatty,1990,70,f,,f,d
-2003-01-26,Confessions of a Dangerous Mind,George Clooney,2002,58,f,2002,f,f
-2003-01-27,The Pianist,Roman Polanski,2002,67,f,2002,f,f
-2003-01-28,Devils on the Doorstep,Jiang Wen,2000,77,f,2002,f,v
-2003-01-29,The Sleepy Time Gal,Christopher Munch,2001,45,f,2002,f,d
-2003-01-31,Rabbit-Proof Fence,Phillip Noyce,2002,61,f,2002,f,f
-2003-02-01,Talk to Her,Pedro Almodóvar,2002,87,f,2002,f,f
-2003-02-04,Superstar: The Karen Carpenter Story,Todd Haynes,1987,72,t,,f,d
-2003-02-07,Dark Water,Hideo Nakata,2002,59,f,,f,v
-2003-02-08,High and Low,Akira Kurosawa,1963,74,f,,f,f
-2003-02-15,Jeepers Creepers,Victor Salva,2001,51,f,2001,f,d
-2003-02-15,The Quiet American,Phillip Noyce,2002,53,f,2002,f,f
-2003-02-16,The Omen,Richard Donner,1976,50,f,,f,d
-2003-02-20,Morvern Callar,Lynne Ramsay,2002,75,f,2002,f,f
-2003-02-21,All or Nothing,Mike Leigh,2002,60,f,2002,f,d
-2003-02-22,Wendigo,Larry Fessenden,2001,50,f,2002,f,d
-2003-02-22,October,Sergei Eisenstein & Grigori Alexandrov,1927,61,f,,f,d
-2003-02-24,The Rules of Attraction,Roger Avary,2002,67,f,2002,t,d
-2003-02-26,The Ring,Alfred Hitchcock,1927,38,f,,f,d
-2003-03-01,Charleston,Jean Renoir,1927,42,t,,t,v
-2003-03-01,Nightwatch,Ole Bornedal,1998,20,f,,f,d
-2003-03-04,An Italian Straw Hat,René Clair,1927,53,f,,f,v
-2003-03-07,The Realm of Fortune,Arturo Ripstein,1986,65,f,,f,f
-2003-03-07,Lilya 4-ever,Lukas Moodysson,2002,48,f,2003,f,f
-2003-03-08,Raising Victor Vargas,Peter Sollett,2002,64,f,2003,f,f
-2003-03-08,The Hired Hand,Peter Fonda,1971,80,f,,f,f
-2003-03-09,The Ruination of Man,Arturo Ripstein,2000,43,f,,f,f
-2003-03-10,Wings,William Wellman,1927,52,f,,f,v
-2003-03-12,Live From Shiva's Dancefloor,Richard Linklater,2003,56,t,,f,p
-2003-03-12,It's Impossible to Learn to Plow by Reading Books,Richard Linklater,1988,66,f,,f,p
-2003-03-13,College,James W. Horne Buster Keaton,1927,73,f,,f,d
-2003-03-15,Happy Here and Now,Michael Almareyda,2002,56,f,,f,f
-2003-03-16,City of God,Fernando Meirelles,2002,71,f,2003,f,f
-2003-03-18,The Student Prince in Old Heidelberg,Ernst Lubitsch,1927,83,f,,f,v
-2003-03-22,Berlin: Symphony of a Great City,Walter Ruttmann,1927,62,f,,f,d
-2003-03-22,Opus I,Walter Ruttmann ,1921,55,t,,f,d
-2003-03-25,The Jazz Singer,Alan Crosland,1927,44,f,,f,v
-2003-03-29,Gerry,Gus Van Sant,2002,88,f,2003,f,f
-2003-03-30,Irreversible,Gaspar No&eacute;,2002,78,f,2003,f,f
-2003-04-04,The Cook,Roscoe Arbuckle,1918,66,t,,f,d
-2003-04-04,A Reckless Romeo,Roscoe Arbuckle,1917,54,t,,f,d
-2003-04-04,"Number, Please?",Hal Roach,1920,64,t,,f,d
-2003-04-05,The Adventures of Dollie,D.W. Griffith,1908,49,t,,f,d
-2003-04-05,The Usurer,D.W. Griffith,1910,56,t,,f,d
-2003-04-06,His Trust Fulfilled,D.W. Griffith,1911,50,t,,f,d
-2003-04-06,Enoch Arden,D.W. Griffith,1911,65,t,,f,d
-2003-04-06,The Miser's Heart,D.W. Griffith,1911,58,t,,f,d
-2003-04-06,The Last Drop of Water,D.W. Griffith,1911,57,t,,f,d
-2003-04-06,Friends,D.W. Griffith,1912,47,t,,f,d
-2003-04-06,The Lesser Evil,D.W. Griffith,1912,54,t,,f,d
-2003-04-06,The Massacre,D.W. Griffith,1913,62,t,,f,d
-2003-04-07,Swords and Hearts,D.W. Griffith,1911,63,t,,f,d
-2003-04-13,Amadeus,Milos Forman,1984,82,f,,t,f
-2003-04-19,Phone Booth,Joel Schumacher,2002,15,f,2003,f,f
-2003-04-20,The Good Thief,Neil Jordan,2002,66,f,2003,f,f
-2003-04-22,Fury,Fritz Lang,1936,65,f,,f,f
-2003-04-26,Identity,James Mangold,2003,47,f,2003,f,f
-2003-04-27,All the Real Girls,David Gordon Green,2003,61,f,2003,f,f
-2003-04-28,Auto Focus,Paul Schrader,2002,57,f,,f,d
-2003-04-29,You and Me,Fritz Lang,1938,65,f,,f,f
-2003-05-02,Talk to Her,Pedro Almodóvar,2002,87,f,,t,f
-2003-05-05,Spider,David Cronenberg,2002,50,f,2003,f,f
-2003-05-09,A Mighty Wind,Christopher Guest,2003,45,f,2003,f,f
-2003-05-11,Divine Intervention,Elia Suleiman,2001,64,f,2003,f,f
-2003-05-13,Criss Cross,Robert Siodmak,1949,70,f,,f,f
-2003-05-18,Japón,Carlos Reygadas,2002,57,f,2003,f,f
-2003-05-20,A Foreign Affair,Billy Wilder,1948,87,f,,f,f
-2003-05-22,The Hunted,William Friedkin,2003,65,f,2003,f,f
-2003-05-23,X2,Bryan Singer,2003,62,f,2003,f,f
-2003-05-25,Down With Love,Peyton Reed,2003,63,f,2003,f,f
-2003-05-27,Laura,Otto Preminger,1944,77,f,,f,f
-2003-05-31,The Matrix Reloaded, The Wachowski Brothers,2003,59,f,2003,f,f
-2003-06-02,The Big Heat,Fritz Lang,1953,79,f,,f,f
-2003-06-09,Human Desire,Fritz Lang,1954,58,f,,f,f
-2003-06-13,Spellbound,Jeffrey Blitz,2002,61,f,2003,f,f
-2003-06-14,The Man Without a Past,Aki Kaurismäki,2002,68,f,2003,f,f
-2003-06-19,The Circus,Charles Chaplin,1928,55,f,,f,d
-2003-06-20,Finding Nemo,Andrew Stanton Lee Unkrich,2003,68,f,2003,f,f
-2003-06-22,Eureka,Shinji Aoyama,2000,76,f,,f,f
-2003-06-26,Capturing the Friedmans,Andrew Jarecki,2003,75,f,2003,f,f
-2003-06-29,28 Days Later,Danny Boyle,2002,62,f,2003,f,f
-2003-07-02,To Be or Not To Be,Ernst Lubitsch,1942,91,f,,f,f
-2003-07-11,Melvin Goes to Dinner,Bob Odenkirk,2003,64,f,,f,f
-2003-07-12,Cremaster 3,Matthew Barney,2002,61,f,,f,f
-2003-07-20,Pirates of the Carribean: The Curse of the Black Pearl,Gore Verbinski,2003,45,f,2003,f,f
-2003-07-26,Le Cercle Rouge,Jean-Pierre Melville,1970,72,f,,f,f
-2003-07-30,"The Good, the Bad and the Ugly",Sergio Leone,1966,84,f,,f,f
-2003-08-03,Seabiscuit,Gary Ross,2003,43,f,2003,f,f
-2003-08-17,Anatomy of a Murder,Otto Preminger,1959,87,f,,t,f
-2003-08-25,Friday Night,Claire Denis,2002,67,f,2003,f,f
-2003-09-03,Blind Husbands,Erich von Stroheim,1919,61,f,,f,d
-2003-09-04,Dracula: Pages From a Virgin's Diary,Guy Maddin,2001,66,f,2003,f,f
-2003-09-05,The Secret Lives of Dentists,Alan Rudolph,2002,79,f,2003,f,f
-2003-09-13,American Splendor,Shari Springer Berman & Robert Pulcini,2003,65,f,2003,f,f
-2003-09-14,The Crowd,King Vidor,1928,60,f,,f,v
-2003-09-20,Charlotte Sometimes,Eric Byler,2002,65,f,2003,f,f
-2003-09-24,Matchstick Men,Ridley Scott,2003,67,f,2003,f,f
-2003-09-28,The Weather Underground,Sam Green Bill Siegel,2002,68,f,2003,f,f
-2003-09-29,Lost in Translation,Sofia Coppola,2003,77,f,2003,f,f
-2003-10-04,Dirty Pretty Things,Stephen Frears,2002,64,f,2003,f,f
-2003-10-10,Stevie,Steve James,2003,67,f,2003,f,d
-2003-10-12,Spies,Fritz Lang,1928,67,f,,f,v
-2003-10-12,Outer and Inner Space,Andy Warhol,1966,68,t,,f,f
-2003-10-12,Mario Banana (No. 1),Andy Warhol,1964,64,t,,f,f
-2003-10-12,Mario Banana (No. 2),Andy Warhol,1964,64,t,,f,f
-2003-10-12,Blow Job,Andy Warhol,1963,65,t,,f,f
-2003-10-12,Poor Little Rich Girl,Andy Warhol,1965,69,f,,f,f
-2003-10-16,The School of Rock,Richard Linklater,2003,68,f,2003,f,f
-2003-10-19,Mystic River,Clint Eastwood,2003,60,f,2003,f,f
-2003-10-25,Sweet Sixteen,Ken Loach,2002,68,f,2003,f,d
-2003-10-26,Run Ronnie Run!,Troy Miller,2002,51,f,,f,d
-2003-10-26,"Kill Bill, Vol. 1",Quentin Tarantino,2003,87,f,2003,f,f
-2003-10-28,"Kill Bill, Vol. 1",Quentin Tarantino,2003,87,f,2003,t,f
-2003-10-30,Singapore Sling,Nikos Nikolaidis,1990,69,f,,f,f
-2003-11-02,Intolerable Cruelty,Joel Coen,2003,63,f,2003,f,f
-2003-11-09,Alien,Ridley Scott,1979,79,f,,t,f
-2003-11-13,Pistol Opera,Seijun Suzuki,2001,70,f,2003,f,d
-2003-11-14,Ichi the Killer,Takashi Miike,2001,69,f,2003,f,d
-2003-11-15,The Flower of Evil,Claude Chabrol,2003,54,f,2003,f,f
-2003-11-16,Master and Commander: The Far Side of the World,Peter Weir,2003,60,f,2003,f,f
-2003-11-23,Shattered Glass,Billy Ray,2003,66,f,2003,f,f
-2003-12-02,Bad Santa,Terry Zwigoff,2003,73,f,2003,f,f
-2003-12-06,Elephant,Gus Van Sant,2003,50,f,2003,f,f
-2003-12-07,The Station Agent,Thomas McCarthy,2003,47,f,2003,f,f
-2003-12-07,Owning Mahowny,Richard Kwietniowski,2003,66,f,2003,f,d
-2003-12-08,The Son,Jean-Pierre & Luc Dardenne,2002,81,f,2003,f,v
-2003-12-11,demonlover,Olivier Assayas,2002,80,f,2003,f,f
-2003-12-12,Hulk,Ang Lee,2003,51,f,2003,f,d
-2003-12-14,In My Skin,Marina de Van,2002,74,f,2003,f,f
-2003-12-16,Stuck on You,Peter Farrelly & Bobby Farrelly,2003,57,f,2003,f,f
-2003-12-18,Bus 174,José Padilha & Felipe Lacerda,2002,74,f,2003,f,v
-2003-12-21,10,Abbas Kiarostami,2002,60,f,2003,f,v
-2003-12-22,Sister Helen,Rebecca Cammisa Rob Fruchtman,2002,56,f,2003,f,v
-2003-12-23,The Lord of the Rings: The Return of the King,Peter Jackson,2003,82,f,2003,f,f
-2003-12-29,Winged Migration,Jacques Perrin,2001,61,f,2003,f,d
-2003-12-30,The Revolution Will Not Be Televised,Kim Bartley & Donnacha O'Briain,2003,58,f,2003,f,v
-2003-12-31,In America,Jim Sheridan,2002,66,f,2003,f,f
-2004-01-02,21 Grams,Alejandro Gonzáles Iñárritu,2003,65,f,2003,f,f
-2004-01-09,House of Sand and Fog,Vadim Perelman,2003,45,f,2003,f,f
-2004-01-17,To Be and to Have,Nicolas Philibert,2002,68,f,2003,f,f
-2004-01-24,Monster,Patty Jenkins,2003,56,f,2003,f,f
-2004-01-24,Cold Mountain,Anthony Minghella,2003,52,f,2003,f,f
-2004-01-26,Millennium Mambo,Hsiao-hsien Hou,2001,66,f,2003,f,v
-2004-01-29,An Injury to One,Travis Wilkerson,2002,69,f,2003,f,v
-2004-01-30,Le Divorce,James Ivory,2003,49,f,2003,f,d
-2004-01-31,The Company,Robert Altman,2003,70,f,2003,f,f
-2004-02-12,Aileen: Life and Death of a Serial Killer,Nick Broomfield & Joan Churchill,2003,46,f,2004,f,f
-2004-02-14,The Triplets of Belleville,Sylvain Chomet,2003,56,f,2003,f,f
-2004-02-14,The Big Bounce,George Armitage,2004,34,f,2004,f,f
-2004-02-28,The Dreamers,Bernardo Bertolucci,2003,48,f,2004,f,f
-2004-03-04,50 First Dates,Peter Segal,2004,56,f,2004,f,f
-2004-03-12,Spartan,David Mamet,2004,67,f,2004,f,f
-2004-03-13,Touching the Void,Kevin Macdonald,2003,69,f,2004,f,f
-2004-03-15,Dogville,Lars von Trier,2003,92,f,2004,f,f
-2004-03-18,Metallica: Some Kind of Monster,Joe Berlinger & Bruce Sinofsky,2004,65,f,2004,f,f
-2004-03-20,The Fog of War,Errol Morris,2003,63,f,2003,f,f
-2004-03-21,Eternal Sunshine of the Spotless Mind,Michel Gondry,2004,88,f,2004,f,f
-2004-04-02,The Secret Lives of Dentists,Alan Rudolph,2002,79,f,2003,t,d
-2004-04-03,Capturing the Friedmans,Andrew Jarecki,2003,75,f,2003,t,d
-2004-04-11,Secret Things,Jean-Claude Brisseau,2002,68,f,2004,f,f
-2004-04-18,"Kill Bill, Vol. 2",Quentin,Tarantino,2004,74,f,2004,f,f
-2004-04-22,The Battle of Algiers,Gillo Pontecorvo,1965,75,f,,f,f
-2004-04-28,Dawn of the Dead,Zack Snyder,2004,66,f,2004,f,f
-2004-05-01,The Ladykillers,Joel Coen,Ethan Coen,2004,47,f,2004,f,f
-2004-05-12,The Passion of Joan of Arc,Carl Theodor Dreyer,1928,94,f,,t,d
-2004-05-13,The Kid,Charles Chaplin,1921,50,f,,f,d
-2004-05-15,Duplex,Danny DeVito,2003,40,f,,f,d
-2004-05-16,"Steamboat Bill, Jr.",Charles Reisner,1928,65,f,,f,d
-2004-05-22,"Spring, Summer, Fall, Winter...and Spring",Ki-duk,Kim,2003,75,f,2004,f,f
-2004-05-23,The Last Command,Josef von Sternberg,1928,75,f,,f,v
-2004-05-25,The Farmer's Wife,Alfred Hitchcock,1928,53,f,,f,v
-2004-05-26,The Little Match Girl,Jean Renoir,1928,57,t,,f,v
-2004-05-30,Super Size Me,Morgan Spurlock,2004,64,f,2004,f,f
-2004-06-01,Storm Over Asia,Vsevolod Pudovkin,1928,62,f,,f,d
-2004-06-05,The Saddest Music in the World,Guy Maddin,2003,68,f,2004,f,f
-2004-06-06,Harry Potter and the Prisoner of Azkaban,Alfonso Cuarón,2004,66,f,2004,f,f
-2004-06-06,Troy,Wolfgang Petersen,2004,45,f,2004,f,f
-2004-06-08,Underworld,Josef von Sternberg,1927,63,f,,f,v
-2004-06-09,The Son,Jean-Pierre & Luc Dardenne,2002,81,f,2003,t,d
-2004-06-11,The Cameraman,Edward Sedgwick,1928,71,f,,t,d
-2004-06-12,Docks of New York,Josef von Sternberg,1928,80,f,,f,v
-2004-06-13,Control Room,Jehane Noujaim,2004,67,f,2004,f,f
-2004-06-14,The Fall of the House of Usher,Jean Epstein,1928,63,f,,f,d
-2004-06-15,The Wedding March,Erich von Stroheim,1928,43,f,,f,v
-2004-06-16,The Wind,Victor Sj&ouml;str&ouml;m,1928,85,f,,f,v
-2004-06-17,The Fall of the House of Usher,James Sibley Watson,Melville Webber,1928,65,t,,t,d
-2004-06-18,Along Came Polly,John Hamburg,2004,31,f,2004,f,d
-2004-06-18,The Return,Andrei Zvyaginstev,2003,71,f,2004,f,f
-2004-06-19,Spite Marriage,Edward Sedgwick,1929,66,f,,f,v
-2004-06-19,Un chien andalou,Luis Buñuel,1929,91,t,,t,v
-2004-06-20,The Right Stuff,Philip Kaufman,1983,62,f,,f,f
-2004-06-21,The Cocoanuts,Robert Florey & Joseph Santley,1929,73,f,,f,d
-2004-06-22,Eternal Love,Ernst Lubitsch,1929,79,f,,f,d
-2004-06-26,Farenheit 9/11,Michael Moore,2004,59,f,2004,f,f
-2004-07-05,The Manxman,Alfred Hitchcock,1929,62,f,,f,d
-2004-07-06,Blackmail,Alfred Hitchcock,1929,68,f,,f,d
-2004-07-07,Spider-Man 2,Sam Raimi,2004,68,f,2004,f,f
-2004-07-08,Woman in the Moon,Fritz Lang,1929,35,f,,f,v
-2004-07-09,Before Sunset,Richard Linklater,2004,77,f,2004,f,f
-2004-07-10,Anchorman: The Legend of Ron Burgundy,Adam McKay,2004,40,f,2004,f,f
-2004-07-12,Queen Kelly,Erich von Stroheim,1929,64,f,,f,d
-2004-07-14,The Man With a Movie Camera,Dziga Vertov,1929,86,f,,f,d
-2004-07-20,Diary of a Lost Girl,G.W. Pabst,1929,41,f,,f,d
-2004-07-20,Windy Riley Goes Hollywood,Roscoe Arbuckle,1931,19,t,,f,d
-2004-07-21,The Love Parade,Ernst Lubitsch,1929,72,f,,f,v
-2004-07-23,Coffee and Cigarettes,Jim Jarmusch,2004,48,f,2004,f,f
-2004-07-31,The Village,M. Night Shyamalan,2004,40,f,2004,f,f
-2004-08-01,Ashes of Time,Kar-wai Wong,1994,77,f,,t,f
-2004-08-04,Crimson Gold,Jafar Panahi,2003,81,f,2004,f,d
-2004-08-08,Collateral,Michael Mann,2004,37,f,2004,f,f
-2004-08-10,Under the Roofs of Paris,René Clair,1930,62,f,,t,d
-2004-08-11,The Twilight Samurai,Yoji Yamada,2002,71,f,2004,f,F
-2004-08-12,The Manchurian Candidate,Jonathan Demme,2004,65,f,2004,f,f
-2004-08-14,Maria Full of Grace,Joshua Marston,2004,60,f,2004,f,f
-2004-08-17,The Bourne Supremacy,Paul Greengrass,2004,73,f,2004,f,f
-2004-08-21,Open Water,Chris Kentis,Laura Lau,2003,21,f,2004,f,f
-2004-08-22,Red Lights,C&eacute;dric Kahn,2004,74,f,2004,f,f
-2004-08-22,The Butterfly Effect,Eric Bress,J. & Mackye Gruber,2004,45,f,2004,f,d
-2004-08-28,The Blind Swordsman: Zatoichi,Takeshi Kitano,2003,61,f,2004,f,f
-2004-08-29,Hero,Yimou Zhang,2002,67,f,2004,f,f
-2004-08-29,Gozu,Takashi Miike,2003,62,f,2004,f,f
-2004-08-30,The Crazy Ray,René Clair,1925,61,t,,t,d
-2004-08-31,Blood of a Poet,Jean Cocteau,1930,50,f,,f,d
-2004-08-31,À propos de Nice,Jean Vigo,1930,70,t,,f,v
-2004-09-06,Juno and the Paycock,Alfred Hitchcock,1930,48,f,,f,d
-2004-09-06,Romance sentimentale,Sergei Eisenstein & Grigori Aleksandrov,1930,57,t,,f,d
-2004-09-07,All Quiet on the Western Front,Lewis Milestone,1930,75,f,,f,d
-2004-09-08,Pool Sharks,Edwin Middleton,1915,31,t,,f,d
-2004-09-10,Murder!,Alfred Hitchcock,1930,62,f,,f,d
-2004-09-12,The Golf Specialist,Monte Brice,1930,60,t,,f,d
-2004-09-14,THX 1138,George Lucas,1970,68,f,,f,f
-2004-09-17,Ju-on: The Grudge,Takashi Shimizu,2003,49,f,2004,f,f
-2004-09-21,Code 46,Michael Winterbottom,2003,57,f,2004,f,f
-2004-09-25,Shaun of the Dead,Edgar Wright,2004,63,f,2004,f,f
-2004-09-26,The Five Obstructions,Jørgen Leth & Lars von Trier,2003,69,f,2004,f,f
-2004-10-01,The Corporation,Jennifer Abbott,Mark Achbar,2003,65,f,2004,f,f
-2004-10-02,The Brown Bunny,Vincent Gallo,2003,69,f,2004,f,f
-2004-10-04,Animal Crackers,Victor Heerman,1930,73,f,,t,d
-2004-10-05,Earth,Alexander Dovzhenko,1930,71,f,,f,d
-2004-10-06,Cowards Bend the Knee,Guy Maddin,2003,76,f,2004,f,p
-2004-10-06,The Phantom Museum: Random Forays Into the Vaults of Sir Henry Wellcome's Medical Collection,Brothers Quay,2003,59,t,,f,p
-2004-10-11,Morocco,Josef von Sternberg,1930,74,f,,f,v
-2004-10-12,L'Âge d'or,Luis Buñuel,1930,76,f,,t,v
-2004-10-18,The Blue Angel,Josef von Sternberg,1930,74,f,,f,d
-2004-10-19,The Criminal Code,Howard Hawks,1931,68,f,,f,v
-2004-10-22,Tarnation,Jonathan Caouette,2003,67,f,2004,f,f
-2004-10-23,Primer,Shane Carruth,2004,84,f,2004,f,f
-2004-10-23,Little Caesar,Mervyn LeRoy,1931,52,f,,f,v
-2004-10-25,City Lights,Charles Chaplin,1931,86,f,,t,d
-2004-11-01,Shaolin Soccer,Stephen Chow,2001,60,f,,f,d
-2004-11-04,The Parson's Widow,Carl Theodor Dreyer,1920,58,f,,f,d
-2004-11-05,Sideways,Alexander Payne,2004,79,f,2004,f,f
-2004-11-06,An Amazing Couple,Lucas Belvaux,2002,70,f,2004,f,d
-2004-11-06,Dogville,Lars von Trier,2003,92,f,2004,t,d
-2004-11-08,Blind Shaft,Yang Li,2003,61,f,2004,f,d
-2004-11-10,Time of the Wolf,Michael Haneke,2003,70,f,2004,f,d
-2004-11-13,Birth,Jonathan Glazer,2004,63,f,2004,f,f
-2004-11-19,The Incredibles,Brad Bird,2004,54,f,2004,f,f
-2004-11-23,Dishonored,Josef von Sternberg,1931,73,f,,f,v
-2004-12-03,After the Life,Lucas Belvaux,2002,66,f,2004,f,d
-2004-12-04,Closer,Mike Nichols,2004,65,f,2004,f,f
-2004-12-06,Mean Girls,Mark Waters,2004,55,f,2004,f,d
-2004-12-10,Love Actually,Richard Curtis,2003,51,f,,f,d
-2004-12-13,Infernal Affairs,Andrew Lau,Alan Mak,2002,64,f,2004,f,d
-2004-12-15,Downhill,Alfred Hitchcock,1927,36,f,,f,d
-2004-12-17,Oldboy,Chan-wook Park,2003,70,f,2005,f,d
-2004-12-18,Ocean's Twelve,Steven Soderbergh,2004,51,f,2004,f,f
-2004-12-19,Twentynine Palms,Bruno Dumont,2003,60,f,2004,f,d
-2004-12-26,The Door in the Floor,Tod Williams,2004,51,f,2004,f,d
-2004-12-28,The Life Aquatic with Steve Zissou,Wes Anderson,2004,79,f,2004,f,f
-2004-12-30,The Aviator,Martin Scorsese,2004,48,f,2004,f,f
-2005-01-07,La Dolce vita,Federico Fellini,1960,82,f,,t,f
-2005-01-08,Oasis,Chang-dong Lee,2002,65,f,2004,f,d
-2005-01-09,The SpongeBob SquarePants Movie,Stephen Hillenburg,2004,64,f,2004,f,f
-2005-01-12,Dig!,Ondi Timoner,2004,61,f,2004,f,f
-2005-01-16,In Good Company,Paul Weitz,2004,47,f,2004,f,f
-2005-01-16,Distant,Nuri Bilge Ceylan,2002,82,f,2004,f,v
-2005-01-18,House of Flying Daggers,Yimou Zhang,2004,73,f,2004,f,f
-2005-01-19,Assault on Precinct 13,John Carpenter,1976,69,f,,f,f
-2005-01-21,Los Angeles Plays Itself,Thom Andersen,2003,83,f,2004,f,v
-2005-01-22,Vera Drake,Mike Leigh,2004,76,f,2004,f,f
-2005-01-23,The Big Red One,Samuel Fuller,1980,61,f,,t,f
-2005-01-24,Bright Leaves,Ross McElwee,2003,69,f,2004,f,v
-2005-01-26,Raja,Jacques Doillon,2003,69,f,2004,f,d
-2005-01-27,S21: The Khmer Rouge Killing Machine,Rithy Panh,2003,64,f,2004,f,v
-2005-01-29,Million Dollar Baby,Clint Eastwood,2004,58,f,2004,f,f
-2005-02-01,Lady Windermere's Fan,Ernst Lubitsch,1925,79,f,,t,d
-2005-02-04,Bad Education,Pedro Almodóvar,2004,72,f,2004,f,f
-2005-02-10,On the Run,Lucas Belvaux,2002,66,f,2004,f,d
-2005-02-12,The Rules of the Game,Jean Renoir,1939,80,f,,t,d
-2005-02-18,Werckmeister Harmonies,Béla Tarr,2000,75,f,,f,d
-2005-02-20,42nd Street,Lloyd Bacon,1933,70,f,,f,d
-2005-02-21,Counsellor at Law,William Wyler,1933,86,f,,f,d
-2005-02-24,The Testament of Dr. Mabuse,Fritz Lang,1933,49,f,,f,d
-2005-02-27,Napoleon Dynamite,Jared Hess,2004,59,f,,f,d
-2005-02-28,Eternal Sunshine of the Spotless Mind,Michel Gondry,2004,88,f,2004,t,f
-2005-03-01,La Signora di tutti,Max Ophüls,1934,87,f,,f,v
-2005-03-03,Scarlet Empress,Josef von Sternberg,1934,60,f,,f,d
-2005-03-04,The Jacket,John Maybury,2005,43,f,2005,f,f
-2005-03-08,Bad Guy,Ki-duk Kim,2001,81,f,,f,f
-2005-03-09,Ruggles of Red Gap,Leo McCarey,1935,64,f,,f,v
-2005-03-10,David Copperfield,George Cukor,1935,49,f,,f,v
-2005-03-12,A Tale of Two Sisters,Ji-woon Kim,2003,63,f,,f,f
-2005-03-18,Grande école,Robert Salis,2004,35,f,,f,d
-2005-03-19,Ong-bak,Prachya Pinkaew,2003,44,f,2005,f,f
-2005-03-22,Captain Blood,Michael Curtiz,1935,62,f,,f,v
-2005-03-23,Taxi Driver,Martin Scorsese,1976,66,f,,t,f
-2005-03-24,Elephant,Alan Clarke,1989,68,t,,f,d
-2005-03-27,Angel,Ernst Lubitsch,1937,89,f,,f,v
-2005-03-28,"New York, New York",Martin Scorsese,1977,62,f,,f,f
-2005-04-06,Frank Miller's Sin City,Frank Miller & Robert Rodriguez,2005,71,f,2005,f,f
-2005-04-09,Nobody Knows,Hirokazu Koreeda,2004,68,f,2005,f,f
-2005-04-16,Pépé le Moko,Julien Duvivier,1937,66,f,,f,d
-2005-04-16,La Jetée,Chris Marker,1962,93,t,,t,d
-2005-04-20,Easy Living,Mitchell Leisen,1937,69,f,,f,v
-2005-04-21,Holiday,George Cukor,1938,90,f,,f,v
-2005-04-21,Nothing Sacred,William Wellman,1937,49,f,,f,d
-2005-04-21,You Only Live Once,Fritz Lang,1937,64,f,,f,d
-2005-04-22,Holiday,George Cukor,1938,90,f,,t,v
-2005-04-22,Dallas 362,Scott Caan,2003,69,f,2005,f,f
-2005-04-23,Alexander Nevsky,Sergei Eisenstein & Dmitri Vasilyev,1938,61,f,,f,d
-2005-04-24,Millions,Danny Boyle,2004,57,f,2005,f,f
-2005-04-28,Angels with Dirty Faces,Michael Curtiz,1938,60,f,,f,d
-2005-04-30,Kung Fu Hustle,Stephen Chow,2004,69,f,2005,f,f
-2005-05-04,The Seventh Seal,Ingmar Bergman,1957,75,f,,t,f
-2005-05-04,The Virgin Spring,Ingmar Bergman,1960,66,f,,f,f
-2005-05-09,The Silence,Ingmar Bergman,1963,45,f,,f,f
-2005-05-13,Memories of Murder,Joon-ho Bong,2003,78,f,2005,f,f
-2005-05-20,Star Wars: Episode III - Revenge of the Sith,George Lucas,2005,42,f,2005,f,f
-2005-05-21,Head-On,Fatih Akin,2004,70,f,2005,f,f
-2005-05-24,Look at Me,Agnès Jaoui,2004,66,f,2005,f,f
-2005-05-25,Only Angels Have Wings,Howard Hawks,1939,70,f,,f,d
-2005-05-28,Outer Space,Peter Tscherkassky,1999,92,t,,f,d
-2005-05-28,Ursula,Lloyd Michael Williams,1961,66,t,,f,d
-2005-05-29,3-Iron,Ki-duk Kim,2004,69,f,2005,f,f
-2005-06-13,Destry Rides Again,George Marshall,1939,69,f,,f,v
-2005-06-17,Batman Begins,Christopher Nolan,2005,64,f,2005,f,f
-2005-06-18,Howl's Moving Castle,Hayao Miyazaki,2004,65,f,2005,f,f
-2005-06-22,Mr. Smith Goes to Washington,Frank Capra,1939,69,f,,f,d
-2005-06-24,Ball of Fire,Howard Hawks,1941,75,f,,f,v
-2005-06-26,Land of the Dead,George Romero,2005,49,f,2005,f,f
-2005-06-27,The Roaring Twenties,Raoul Walsh,1939,64,f,,f,d
-2005-07-01,War of the Worlds,Steven Spielberg,2005,68,f,2005,f,f
-2005-07-06,My Summer of Love,Pawel Pawlikowski,2004,65,f,2005,f,f
-2005-07-09,Mysterious Skin,Gregg Araki,2004,76,f,2005,f,f
-2005-07-14,How Green Was My Valley,John Ford,1941,75,f,,f,d
-2005-07-16,Charlie and the Chocolate Factory,Tim Burton,2005,49,f,2005,f,f
-2005-07-16,Cinderella Man,Ron Howard,2005,41,f,2005,f,f
-2005-07-18,March of the Penguins,Luc Jacquet,2005,62,f,2005,f,f
-2005-07-23,The Devil's Rejects,Rob Zombie,2005,65,f,2005,f,f
-2005-07-25,High Sierra,Raoul Walsh,1941,64,f,,f,d
-2005-07-29,Masculine-Feminine,Jean-Luc Godard,1966,68,f,,t,f
-2005-08-08,Scenes From a Marriage,Ingmar Bergman,1973,88,f,,f,d
-2005-08-10,Me and You and Everyone We Know,Miranda July,2005,60,f,2005,f,f
-2005-08-13,Saraband,Ingmar Bergman,2003,44,f,2005,f,p
-2005-08-16,Sky High,Mike Mitchell,2005,57,f,2005,f,f
-2005-08-18,Murderball,Henry Alex Rubin & Dana Adam Shapiro,2005,53,f,2005,f,f
-2005-08-19,Red Eye,Wes Craven,2005,50,f,2005,f,f
-2005-08-21,Grizzly Man,Werner Herzog,2005,85,f,2005,f,f
-2005-08-23,Last Days,Gus Van Sant,2005,64,f,2005,f,f
-2005-08-26,Broken Flowers,Jim Jarmusch,2005,63,f,2005,f,f
-2005-08-27,The Aristocrats,Paul Provenza,2005,63,f,2005,f,f
-2005-08-30,The 40 Year-Old Virgin,Judd Apatow,2005,59,f,2005,f,f
-2005-09-09,2046,Wong Kar Wai,2004,67,f,2005,f,f
-2005-09-21,The Beat That My Heart Skipped,Jacques Audiard,2005,61,f,2005,f,f
-2005-09-30,Mirrormask,Dave McKean,2005,63,f,2005,f,f
-2005-10-01,A History of Violence,David Cronenberg,2005,66,f,2005,f,f
-2005-10-15,The Curse of the Were-Rabbit,Nick Park & Steve Box,2005,62,f,2005,f,f
-2005-10-23,Brick,Rian Johnson,2005,81,f,2006,f,f
-2005-10-25,A Cock and Bull Story,Michael Winterbottom,2005,54,f,2006,f,f
-2005-10-26,Manderlay,Lars von Trier,2005,51,f,2006,f,f
-2005-10-27,The Squid and the Whale,Noah Baumbach,2005,77,f,2005,f,f
-2005-10-30,Tim Burton's Corpse Bride,Johnson Mike & Tim Burton,2005,61,f,2005,f,f
-2005-11-03,Serenity,Joss Whedon,2005,79,f,2005,f,f
-2005-11-04,Keane,Lodge Kerrigan,2005,62,f,2005,f,f
-2005-11-05,The World,Zhang-ke Jia,2004,62,f,2005,f,p
-2005-11-09,"Good Night, and Good Luck.",George,Clooney,2005,57,f,2005,f,f
-2005-11-11,Capote,Bennett Miller,2005,47,f,2005,f,f
-2005-11-12,Kiss Kiss Bang Bang,Shane Black,2005,71,f,2005,f,f
-2005-11-23,Walk the Line,James Mangold,2005,46,f,2005,f,f
-2005-11-24,Pride & Prejudice,Joe Wright,2005,65,f,2005,f,f
-2005-11-25,Tropical Malady,Apichatpong Weerasethakul,2004,89,f,2005,f,d
-2005-11-26,The Holy Girl,Lucrecia Martel,2004,72,f,2005,f,d
-2005-12-17,Brokeback Mountain,Ang Lee,2005,75,f,2005,f,F
-2005-12-18,Kings and Queen,Arnaud Desplechin,2004,67,f,2005,f,d
-2005-12-29,Munich,Steven Spielberg,2005,66,f,2005,f,f
-2006-01-03,Fitzcarraldo,Werner Herzog,1982,61,f,,t,f
-2006-01-07,King Kong,Peter Jackson,2005,67,f,2005,f,f
-2006-01-13,Funny Ha Ha,Andrew Bujalski,2003,64,f,2005,f,d
-2006-01-14,Six Figures Getting Sick (Six Times),David Lynch,1966,54,t,,f,d
-2006-01-14,The Alphabet,David Lynch,1968,68,t,,f,d
-2006-01-14,The Grandmother,David Lynch,1970,66,t,,f,d
-2006-01-14,The Amputee,David Lynch,1974,62,t,,f,d
-2006-01-14,The Cowboy and the Frenchman,David Lynch,1988,43,t,,f,d
-2006-01-14,Lumiere,David Lynch,1996,92,t,,t,d
-2006-01-15,Nosferatu,Werner Herzog,1979,65,f,,t,f
-2006-01-18,Tony Takitani,Jun Ichikawa,2004,68,f,2005,f,d
-2006-01-20,The New World,Terrence Malick,2005,70,f,2005,f,f
-2006-01-22,Match Point,Woody Allen,2005,65,f,2005,f,f
-2006-01-24,"Aguirre, Wrath of God",Werner Herzog,1972,91,f,,t,f
-2006-01-28,Darwin's Nightmare,Hubert Sauper,2004,68,f,2005,f,f
-2006-02-05,The Matador,Richard Shepard,2005,68,f,2005,f,f
-2006-02-11,Curious George,Matthew O'Callaghan,2006,35,f,2006,f,f
-2006-02-18,Caché (Hidden),Michael Haneke,2005,75,f,2005,f,f
-2006-02-19,The Passenger,Michaelangelo Antonioni,1975,65,f,,t,f
-2006-02-24,The Three Burials of Melquiades Estrada,Tommy Lee Jones,2005,49,f,,f,f
-2006-03-14,Dave Chappelle's Block Party,Michel Gondry,2005,66,f,2006,f,f
-2006-03-16,Failure to Launch,Tom Dey,2006,36,f,2006,f,f
-2006-03-18,Duck Season,Fernando Eimbcke,2004,62,f,2006,f,f
-2006-03-24,Inside Man,Spike Lee,2006,65,f,2006,f,f
-2006-04-04,Neil Young: Heart of Gold,Jonathan Demme,2006,59,f,2006,f,f
-2006-04-12,Battle in Heaven,Carlos Reygadas,2005,56,f,2006,f,f
-2006-04-14,Bubble,Steven Soderbergh,2005,63,f,2006,f,d
-2006-04-20,The Heart is Deceitful Above All Things,Asia Argento,2004,56,f,2006,f,f
-2006-04-22,The Notorious Bettie Page,Mary Harron,2006,45,f,2006,f,f
-2006-05-05,Mission: Impossible III,J.J. Abrams,2006,53,f,2006,f,f
-2006-05-09,L'Enfant,Jean-Pierre & Luc Dardenne,2005,69,f,2006,f,f
-2006-05-15,The Devil and Daniel Johnston,Jeff Feuerzeig,2005,66,f,2006,f,f
-2006-05-21,Girl Shy,Fred C. Newmeyer & Sam Taylor,1924,66,f,,f,f
-2006-05-24,Rocco and His Brothers,Luchino Visconti,1960,71,f,,f,p
-2006-05-27,United 93,Paul Greengrass,2006,69,f,2006,f,f
-2006-06-02,Down in the Valley,David Jacobson,2005,68,f,2006,f,f
-2006-06-04,Clean,Olivier Assayas,2004,63,f,2006,f,f
-2006-06-11,A Prairie Home Companion,Robert Altman,2006,73,f,2006,f,f
-2006-07-08,The Death of Mr. Lazarescu,Cristi Puiu,2005,71,f,2006,f,f
-2006-07-20,The Shop Around the Corner,Ernst Lubitsch,1940,70,f,,f,f
-2006-07-21,A Scanner Darkly,Richard Linklater,2006,67,f,2006,f,f
-2006-08-16,The Descent,Neil Marshall,2005,67,f,2006,f,f
-2006-09-13,An Inconvenient Truth,Davis Guggenheim,2006,64,f,2006,f,f
-2006-09-15,River of Grass,Kelly Reichardt,1994,64,f,,f,d
-2006-09-15,Half Nelson,Ryan Fleck,2006,71,f,2006,f,f
-2006-09-15,The Seventh Continent,Michael Haneke,1989,84,f,,f,d
-2006-09-23,The Black Dahlia,Brian De Palma,2006,44,f,2006,f,f
-2006-09-24,Idiocracy,Mike Judge,2006,49,f,2006,f,f
-2006-09-26,The Host,Joon-ho Bong,2006,80,f,2007,f,f
-2006-10-07,The Departed,Martin Scorsese,2006,74,f,2006,f,f
-2006-10-15,Jackass Number Two,Jeff Tremaine,2006,64,f,2006,f,f
-2006-10-21,The Prestige,Christopher Nolan,2006,80,f,2006,f,f
-2006-10-22,Marie Antoinette,Sophia Coppola,2006,82,f,2006,f,f
-2006-10-27,Three Times,Hsiao-hsien Hou,2005,64,f,2006,f,d
-2006-10-28,Monster House,Gil Kenan,2006,45,f,2006,f,f
-2006-10-28,Mutual Appreciation,Andrew Bujalski,2005,80,f,2006,f,f
-2006-10-28,The Queen,Stephen Frears,2006,51,f,2006,f,f
-2006-10-29,District B13,Pierre Morel,2004,61,f,2006,f,d
-2006-10-29,I am a Sex Addict,Caveh Zahedi,2005,65,f,2006,f,d
-2006-10-31,Shortbus,John Cameron Mitchell,2006,60,f,2006,f,f
-2006-11-03,Old Joy,Kelly Reichardt,2006,79,f,2006,f,f
-2006-11-11,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,Larry Charles,2006,59,f,2006,f,f
-2006-11-14,Army of Shadows,Jean-Pierre Melville,1969,81,f,,f,f
-2006-11-19,Happy Feet,George Miller,2006,47,f,2006,f,f
-2006-12-04,Casino Royale,Martin Campbell,2006,61,f,2006,f,f
-2006-12-09,Wordplay,Patrick Creadon,2006,63,f,2006,f,f
-2006-12-11,Apocalypto,Mel Gibson,2006,66,f,2006,f,f
-2006-12-20,Gabrielle,Patrice Chéreau,2005,67,f,2006,f,d
-2006-12-25,The Good Shepherd,Robert De Niro,2006,57,f,2006,f,f
-2006-12-26,Miami Vice,Michael Mann,2006,69,f,2006,f,d
-2006-12-28,Cars,John Lasseter,2006,62,f,2006,f,d
-2006-12-30,The Puffy Chair,Jay Duplass,2006,64,f,2006,f,d
-2006-12-31,Charlotte's Web,Gary Winick,2006,59,f,2006,f,f
-2007-01-05,Perfume: The Story of a Murderer,Tom Tykwer,2006,69,f,2006,f,f
-2007-01-05,Children of Men,Alfonso Cuarón,2006,77,f,2006,f,f
-2007-01-14,Volver,Pedro Almodóvar,2006,69,f,2006,f,f
-2007-01-17,Friends With Money,Nicole Holofcener,2006,62,f,2006,f,d
-2007-01-20,Pan's Labyrinth,Guillermo Del Toro,2006,67,f,2006,f,f
-2007-01-24,Inland Empire,David Lynch,2006,79,f,2006,f,f
-2007-01-28,Letters from Iwo Jima,Clint Eastwood,2006,61,f,2006,f,f
-2007-02-16,Marie Antoinette,Sophia Coppola,2006,82,f,2006,t,d
-2007-02-17,Talladega Nights: The Ballad of Ricky Bobby,Adam McKay,2006,53,f,2006,f,d
-2007-03-02,Zodiac,David Fincher,2007,74,f,2007,f,f
-2007-03-06,The Lives of Others,Florian Henckel von Donnersmarck,2006,59,f,2007,f,f
-2007-03-09,Notorious,Alfred Hitchcock,1946,83,f,,t,d
-2007-03-16,Breach,Billy Ray,2007,44,f,2007,f,f
-2007-03-24,The Host,Joon-ho Bong,2006,80,f,2007,t,f
-2007-03-26,Brick,Rian Johnson,2005,81,f,2006,t,d
-2007-03-27,Climates,Nuri Bilge Ceylan,2006,75,f,2006,f,f
-2007-04-14,Grindhouse,Robert Rodriguez,"Rob Zombie, Edgar Wright, Eli Roth, Quentin Tarantino",2007,75,f,2007,f,f
-2007-04-21,Hot Fuzz,Edgar Wright,2007,60,f,2007,f,f
-2007-04-27,Vacancy,Nimród Antal,2007,55,f,2007,f,f
-2007-05-05,The Wind That Shakes the Barley,Ken Loach,2006,60,f,2007,f,f
-2007-05-10,Black Book,Paul Verhoeven,2006,73,f,2007,f,f
-2007-05-12,Fracture,Gregory Hoblit,2007,58,f,2007,f,f
-2007-05-21,Sleeping Dogs Lie.,Bobcat Goldthwait,2006,54,f,2006,f,d
-2007-06-02,Knocked Up,Judd Apatow,2007,66,f,2007,f,f
-2007-06-07,Away From Her,Sarah Polley,2006,67,f,2007,f,f
-2007-06-07,Once,John Carney,2006,63,f,2007,f,f
-2007-06-07,28 Weeks Later,Juan Carlos Fresnadillo,2007,43,f,2007,f,f
-2007-06-07,Bug,William Friedkin,2006,61,f,2007,f,f
-2007-06-13,Mr. Brooks,Bruce A. Evans,2007,56,f,2007,f,f
-2007-06-26,McCabe and Mrs. Miller,Robert Altman,1971,84,f,,t,f
-2007-06-26,Brewster McCloud,Robert Altman,1970,64,f,,f,f
-2007-06-27,Bamako,Abderrahmane Sissako,2006,61,f,2007,f,f
-2007-07-04,Ratatouille,Brad Bird,2007,59,f,2007,f,f
-2007-07-07,Regular Lovers,Philippe Garrel,2005,80,f,2007,f,d
-2007-07-09,Sicko,Michael Moore,2007,66,f,2007,f,f
-2007-07-13,Syndromes and a Century,Apichatpong Weerasethakul,2006,70,f,2007,f,f
-2007-07-14,Joshua,George Ratliff,2007,82,f,2007,f,f
-2007-07-14,An Eastern Westerner,Hal Roach,1920,51,t,,f,d
-2007-07-14,Ask Father,H.M. Walker,1919,56,t,,f,d
-2007-07-14,Safety Last,Fred C. Newmeyer & Sam Taylor,1923,81,f,,t,d
-2007-08-05,Election,Johnny To,2005,62,f,2007,f,d
-2007-08-07,Election 2,Johnny To,2006,62,f,2007,f,f
-2007-08-10,The Bourne Ultimatum,Paul Greengrass,2007,63,f,2007,f,f
-2007-08-18,Superbad,Greg Mottola,2007,64,f,2007,f,f
-2007-08-22,Sunshine,Danny Boyle,2007,64,f,2007,f,f
-2007-09-03,The Boss of It All,Lars Von Trier,2006,70,f,2007,f,f
-2007-09-06,The Simpsons Movie,David Silverman,2007,59,f,2007,f,f
-2007-09-08,Offside,Jafar Panahi,2006,67,f,2007,f,d
-2007-09-09,This is England,Shane Meadows,2006,63,f,2007,f,f
-2007-09-11,Manufactured Landscapes,Jennifer Baichwal,2006,64,f,2007,f,f
-2007-09-11,The King of Kong: A Fistful of Quarters,Seth Gordon,2007,64,f,2007,f,f
-2007-09-18,12:08 East of Bucharest,Corneliu Porumboiu,2006,71,f,2007,f,f
-2007-09-23,Eastern Promises,David Cronenberg,2007,52,f,2007,f,f
-2007-09-26,The Assassination of Jesse James By the Coward Robert Ford,Andrew Dominik,2007,82,f,2007,f,f
-2007-10-12,The Darjeeling Limited,Wes Anderson,2007,48,f,2007,f,f
-2007-10-20,Gone Baby Gone,Ben Affleck,2007,70,f,2007,f,f
-2007-10-30,Into the Wild,Sean Penn,2007,46,f,2007,f,f
-2007-11-02,The Wayward Cloud,Ming-liang Tsai,2005,78,f,2007,f,d
-2007-11-07,My Kid Could Paint That,Amir Bar-Lev,2007,76,f,2007,f,f
-2007-11-09,Day Night Day Night,Julia Loktev,2006,72,f,2007,f,f
-2007-11-10,Michael Clayton,Tony Gilroy,2007,73,f,2007,f,f
-2007-11-17,Time,Ki-duk Kim,2006,71,f,2007,f,d
-2007-11-18,No Country For Old Men,Joel Coen & Ethan Coen,2007,75,f,2007,f,f
-2007-11-19,Before the Devil Knows You're Dead,Sidney Lumet,2007,45,f,2007,f,f
-2007-11-23,In Between Days,So Yong Kim,2006,67,f,2007,f,d
-2007-11-24,I'm Not There,Todd Haynes,2007,60,f,2007,f,f
-2007-11-24,The Polar Express,Robert Zemeckis,2004,44,f,2004,f,f
-2007-11-30,No End in Sight,Charles Ferguson,2007,53,f,2007,f,d
-2007-12-08,Exiled,Johnny To,2006,73,f,2007,f,d
-2007-12-15,Margot at the Wedding,Noah Baumbach,2007,69,f,2007,f,f
-2007-12-17,Atonement,Joe Wright,2007,68,f,2007,f,f
-2007-12-20,Paprika,Satoshi Kon,2006,62,f,2007,f,d
-2007-12-22,Sweeney Todd: The Demon Barber of Fleet Street,Tim Burton,2007,66,f,2007,f,f
-2007-12-24,Everything Will Be Ok,Don Hertzfeldt,2006,84,t,,f,d
-2007-12-30,Juno,Jason Reitman,2007,54,f,2007,f,f
-2008-01-05,The Water Horse: Legend of the Deep,Jay Russell,2007,54,f,2007,f,f
-2008-01-07,The Savages,Tamara Jenkins,2007,65,f,2007,f,f
-2008-01-07,Brand Upon the Brain!,Guy Maddin,2006,66,f,2007,f,d
-2008-01-12,Kiki's Delivery Service,Hayao Miyazaki,1989,65,f,,f,d
-2008-01-12,Rescue Dawn,Werner Herzog,2007,51,f,2007,f,d
-2008-01-13,The Diving Bell and the Butterfly,Julian Schnabel,2007,63,f,2007,f,f
-2008-01-17,"Lust, Caution",Ang Lee,2007,63,f,2007,f,d
-2008-01-18,Private Fears in Public Places,Alain Resnais,2006,58,f,2007,f,d
-2008-01-19,There Will Be Blood,Paul Thomas Anderson,2007,78,f,2007,f,f
-2008-01-20,3:10 to Yuma,James Mangold,2007,61,f,2007,f,d
-2008-01-21,I Am Legend,Francis Lawrence,2007,58,f,2007,f,f
-2008-01-24,Summer '04,Stefan Krohmer,2006,64,f,2007,f,d
-2008-01-25,Persepolis,Vincent Paronnaud & Marjane Satrapi,2007,58,f,2007,f,d
-2008-01-29,Out of the Past,Jacques Tourneur,1947,88,f,,t,d
-2008-01-30,Degrees of Limitation,Scott Stark,1982,66,t,,f,f
-2008-01-30,Air,Scott Stark,1986,64,t,,f,f
-2008-01-30,I'll Walk With God,Scott Stark,1994,86,t,,f,f
-2008-01-30,Angel Beach,Scott Stark,2001,75,t,,f,f
-2008-01-30,To Love or To Die,Scott Stark,2003,76,t,,f,p
-2008-01-30,Chop,Scott Stark,2003,58,t,,f,p
-2008-01-30,More Than Meets the Eye: Remaking Jane Fonda,Scott Stark,2006,70,t,,f,p
-2008-02-01,49th Parallel,Michael Powell,1941,65,f,,f,d
-2008-02-08,Cat People,Jacques Tourneur,1942,85,f,,f,d
-2008-02-24,"4 Months, 3 Weeks and 2 Days",Cristian Mungiu,2007,79,f,2008,f,f
-2008-03-15,Funny Games,Michael Haneke,2007,81,f,2008,f,f
-2008-03-23,Paranoid Park,Gus Van Sant,2007,73,f,2008,f,f
-2008-04-03,In Bruges,Martin McDonagh,2008,42,f,2008,f,f
-2008-04-05,Here Comes Mr. Jordan,Alexander Hall,1941,69,f,,f,d
-2008-04-06,Chicago 10,Brett Morgen,2007,65,f,2008,f,f
-2008-04-15,Unknown Pleasures,Zhang Ke Jia,2002,75,f,,f,f
-2008-04-26,Shine a Light,Martin Scorsese,2008,50,f,2008,f,f
-2008-04-27,My Blueberry Nights,Kar Wai Wong,2007,57,f,2008,f,f
-2008-05-17,The Palm Beach Story,Preston Sturges,1942,89,f,,f,d
-2008-05-24,Iron Man,John Favreau,2008,53,f,2008,f,f
-2008-05-24,Forgetting Sarah Marshall,Nicholas Stoller,2008,49,f,2008,f,f
-2008-05-31,Woman on the Beach,Hong Sang-soo,2006,80,f,2008,f,d
-2008-06-02,The Strangers,Bryan Bertino,2008,55,f,2008,f,f
-2008-06-06,The Duchess of Langeais,Jacques Rivette,2007,71,f,2008,f,d
-2008-06-13,Kung Fu Panda,Mark Osborne & John Stevenson,2008,61,f,2008,f,f
-2008-06-15,The Edge of Heaven,Fatih Akin,2007,67,f,2008,f,d
-2008-06-17,The Happening,M. Night Shyamalan,2008,26,f,2008,f,f
-2008-06-19,Still Life,Jia Zhangke,2006,69,f,2008,f,f
-2008-06-19,Standard Operating Procedure,Errol Morris,2008,64,f,2008,f,f
-2008-06-28,Wall-E,Andrew Stanton,2008,75,f,2008,f,f
-2008-06-29,Victory Over the Sun,Michael Robinson,2007,80,t,,f,d
-2008-07-03,Silent Light,Carlos Reygadas,2007,84,f,2008,f,d
-2008-07-11,Black Snake Moan,Craig Brewer,2006,52,f,,f,d
-2008-07-14,Gentleman Jim,Raoul Walsh,1942,65,f,,f,d
-2008-07-20,The Dark Knight,Christopher Nolan,2008,70,f,2008,f,f
-2008-08-02,Sátántángo,Béla Tarr,1994,89,f,,f,d
-2008-08-16,Vicky Cristina Barcelona,Woody Allen,2008,56,f,2008,f,f
-2008-08-16,In the City of Sylvia,José Luis Guerín,2007,81,f,2008,f,d
-2008-08-23,Flight of the Red Balloon,Hsiao-hsien Hou,2007,80,f,2008,f,d
-2008-08-25,Pineapple Express,David Gordon Green,2008,40,f,2008,f,f
-2008-09-02,The Last Mistress,Catherine Breillat,2007,66,f,2008,f,d
-2008-09-06,Chop Shop,Ramin Bahrani,2007,65,f,2008,f,d
-2008-09-12,Encounters at the End of the World,Werner Herzog,2007,77,f,2008,f,p
-2008-09-14,Burn After Reading,Joel Coen & Ethan Coen,2008,78,f,2008,f,f
-2008-09-27,Ghost Town,David Koepp,2008,47,f,2008,f,f
-2008-10-03,Tell No One,Guillaume Canet,2006,57,f,2008,f,d
-2008-10-10,My Winnipeg,Guy Maddin,2007,79,f,2008,f,p
-2008-10-18,Man on Wire,James Marsh,2008,64,f,2008,f,p
-2008-10-24,Reprise,Joachim Trier,2006,60,f,2008,f,d
-2008-10-27,The Ruins,Carter Smith,2008,45,f,2008,f,d
-2008-11-02,Let the Right One In,Tomas Alfredson,2008,66,f,2008,f,p
-2008-11-02,Stuck,Stuart Gordon,2007,54,f,2008,f,d
-2008-11-08,Rachel Getting Married,Jonathan Demme,2008,70,f,2008,f,f
-2008-11-08,"Synecdoche, New York",Charlie Kaufman,2008,65,f,2008,f,f
-2008-11-08,Happy-Go-Lucky,Mike Leigh,2008,66,f,2008,f,f
-2008-11-15,Profit Motive and the Whispering Wind,John Gianvito,2007,63,f,2008,f,d
-2008-12-06,The Secret of the Grain,Abdel Kechiche,2007,74,f,2008,f,d
-2008-12-08,Taxi to the Dark Side,Alex Gibney,2007,65,f,2008,f,d
-2008-12-15,Role Models,David Wain,2008,40,f,2008,f,f
-2008-12-16,Momma's Man,Azazel Jacobs,2008,59,f,2008,f,f
-2008-12-20,Shotgun Stories,Jeff Nichols,2007,53,f,2008,f,d
-2008-12-21,Milk,Gus Van Sant,2008,52,f,2008,f,f
-2008-12-22,Bigger Stronger Faster* (* The Side Effects of Being American),Chris Bell,2008,65,f,2008,f,d
-2008-12-25,A Christmas Tale,Arnaud Desplechin,2008,78,f,2008,f,d
-2008-12-28,The Wrestler,Darren Aronofsky,2008,68,f,2008,f,d
+2009-01-03,My Neighbor Totoro,Hiyao Miyazaki,1988,84,f,,d
+2009-01-09,Wendy and Lucy,Kelly Reichardt,2008,66,f,2008,d
+2009-01-10,Doubt,John Patrick Shanley,2008,65,f,2008,f
+2009-01-10,Before I Forget,Jacques Nolot,2007,51,f,2008,d
+2009-01-13,Revolutionary Road,Sam Mendes,2008,65,f,2008,f
+2009-01-16,Waltz With Bashir,Ari Folman,2008,66,f,2008,d
+2009-01-17,Frost/Nixon,Ron Howard,2008,41,f,2008,d
+2009-01-18,The Romance of Astrea and Celadon,Eric Rohmer,2007,67,f,2008,d
+2009-01-19,The Class,Laurent Cantet,2008,65,f,2008,d
+2009-01-23,Baghead,Jay Duplass & Mark Duplass,2008,57,f,2008,d
+2009-01-24,Frozen River,Courtney Hunt,2008,58,f,2008,d
+2009-01-27,Mad Detective,Johnnie To,2007,58,f,2008,d
+2009-01-30,Days and Clouds,Silvio Soldini,2007,66,f,2008,d
+2009-01-31,Ballast,Lance Hammer,2008,66,f,2008,d
+2009-02-07,Coraline,Henry Selick,2009,68,f,2009,f
+2009-02-14,Slumdog Millionaire,Danny Boyle,2008,41,f,2008,f
+2009-02-19,Last Year at Marienbad,Alain Resnais,1961,70,f,,f
+2009-02-20,Gommorah,Matteo Garrone,2008,62,f,2009,d
+2009-02-28,Two Lovers,James Gray,2008,66,f,2009,d
+2009-03-14,Sita Sings the Blues,Nina Paley,2008,65,f,2009,d
+2009-03-16,The Navigator,Donald Crisp & Buster Keaton,1924,77,f,,d
+2009-03-17,Let the Right One In,Tomas Alfredson,2008,66,f,2008,d
+2009-03-18,Watchmen,Zack Snyder,2009,51,f,2009,f
+2009-03-21,Duplicity,Tony Gilroy,2009,80,f,2009,f
+2009-03-21,Hunger,Steve McQueen,2008,67,f,2009,d
+2009-03-26,"Sherlock, Jr.",Buster Keaton,1924,94,t,,d
+2009-03-24,Our Hospitality,Buster Keaton & John G. Blystone,1923,95,f,,d
+2009-04-03,Tokyo Sonata,Kiyoshi Kurosawa,2008,58,f,2009,p
+2009-04-03,Afterschool,Antonio Campos,2008,76,f,,f
+2009-04-04,Silent Light,Carlos Reygadas,2007,84,f,2008,p
+2009-04-04,Secret Sunshine,Chang-dong Lee,2007,59,f,,f
+2009-04-04,Revanche,Götz Spielmann,2008,70,f,2009,f
+2009-04-05,Jerichow,Christian Petzold,2008,60,f,2009,f
+2009-04-10,Adventureland,Greg Mottola,2009,54,f,2009,f
+2009-04-22,Lola Montès,Max Ophüls,1955,69,f,,f
+2009-04-30,Che: Part One,Steven Soderbergh,2008,64,f,2008,f
+2009-05-01,Lorna's Silence,Jean-Pierre & Luc Dardenne,2008,71,f,2009,d
+2009-05-02,Che: Part Two,Steven Soderbergh,2008,60,f,2008,f
+2009-05-15,Star Trek,J.J. Abrams,2009,57,f,2009,f
+2009-05-16,Julia,Erick Zonca,2008,79,f,2009,d
+2009-05-20,Summer Hours,Olivier Assayas,2008,81,f,2009,d
+2009-05-22,The Girlfriend Experience,Steven Soderbergh,2009,56,f,2009,d
+2009-05-23,The Headless Woman,Lucrecia Martel,2008,69,f,2009,d
+2009-05-29,Up,Pete Docter,2009,73,f,2009,f
+2009-05-30,Nick and Norah's Infinite Playlist,Peter Sollett,2008,38,f,2008,d
+2009-06-01,Drag Me to Hell,Sam Raimi,2009,69,f,2009,f
+2009-06-05,You the Living,Roy Andersson,2007,68,f,2009,d
+2009-06-10,The Hangover,Todd Phillips,2009,26,f,2009,f
+2009-06-11,The Brothers Bloom,Rian Johnson,2008,83,f,2009,
+2009-06-13,Pontypool,Bruce McDonald,2008,58,f,2009,d
+2009-06-21,BirdWatchers,Marco Bechis,2008,65,f,,d
+2009-06-23,The Forest for the Trees,Maren Ade,2003,81,f,,d
+2009-06-27,Who's Camus Anyway?,Mitsuo Yanagimachi,2005,74,f,,d
+2009-07-04,The New Country,Geir Hansteen Jorgensen,2000,68,f,,d
+2009-07-11,Container,Lukas Moodysson,2006,68,f,,d
+2009-07-15,Home,Ursula Meier,2008,78,f,2009,d
+2009-07-16,Public Enemies,Michael Mann,2009,50,f,2009,f
+2009-07-17,In the Loop,Armando Iannucci,2009,75,f,2009,d
+2009-07-18,Yi Yi (A One and a Two...),Edward Yang,2000,89,f,,d
+2009-07-19,The Kid Brother,Ted Wilde,1927,59,f,,d
+2009-07-22,The House of Mirth,Terence Davies,2000,83,f,,d
+2009-07-26,Tropical Malady,Apichatpong Weerasethakul,2004,89,f,2005,d
+2009-07-23,Late Marriage,Dover Koshashvili,2001,87,f,,d
+2009-07-30,Gerry,Gus Van Sant,2002,88,f,2003,d
+2009-08-03,The Man Who Wasn't There,Joel Coen,2001,94,f,,d
+2009-08-05,The Hurt Locker,Kathryn Bigelow,2008,64,f,2009,f
+2009-08-06,State and Main,David Mamet,2000,77,f,,d
+2009-08-08,(500) Days of Summer,Marc Webb,2009,55,f,2009,f
+2009-08-10,Ghost World,Terry Zwigoff,2001,88,f,2001,d
+2009-08-11,Somers Town,Shane Meadows,2008,52,f,2009,d
+2009-08-13,3 Women,Robert Altman,1977,71,f,,d
+2009-08-14,Adaptation.,Spike Jonze,2002,78,f,,d
+2009-08-15,Memento,Christopher Nolan,2000,84,f,,d
+2009-08-15,Ponyo,Hiyao Miyazaki,2008,53,f,2009,f
+2009-08-22,Inglourious Basterds,Quentin Tarantino,2009,68,f,2009,f
+2009-08-23,Songs From the Second Floor,Roy Andersson,2000,78,f,,d
+2009-08-29,Miami Blues,George Armitage,1990,69,f,,d
+2009-08-30,District 9,Neill Blomkamp,2009,64,f,2009,f
+2009-09-09,Humpday,Lynn Shelton,2009,76,f,2009,f
+2009-09-16,Hold Me Now,Michael Robinson,2008,66,t,,d
+2009-09-16,You Don't Bring Me Flowers,Michael Robinson,2005,67,t,,d
+2009-09-18,The General Returns From One Place to Another,Michael Robinson,2006,68,t,,d
+2009-09-18,And We All Shine On,Michael Robinson,2006,67,t,,d
+2009-09-18,Light is Waiting,Michael Robinson,2007,69,t,,d
+2009-09-18,Antichrist,Lars Von Trier,2009,65,f,2009,d
+2009-09-19,Carol Anne is Dead,Michael Robinson,2008,65,t,,d
+2009-09-19,All Through the Night,Michael Robinson,2008,67,t,,d
+2009-09-19,Chiquitita and The Soft Escape,Michael Robinson,2003,66,t,,d
+2009-09-26,Made in U.S.A.,Jean-Luc Godard,1967,52,f,,f
+2009-09-30,2 or 3 Things I Know About Her,Jean-Luc Godard,1967,66,f,,f
+2009-10-03,The Informant!,Steven Soderbergh,2009,67,f,2009,f
+2009-10-03,Still Walking,Hirokazu Koreeda,2008,66,f,2009,d
+2009-10-10,Cloudy With a Chance of Meatballs,Chris Miller & Phil Lord,2009,64,f,2009,f
+2009-10-17,Where the Wild Things Are,Spike Jonze,2009,56,f,2009,f
+2009-10-22,Anvil: The Story of Anvil,Sacha Gervasi,2008,57,f,2009,d
+2009-10-27,35 Shots of Rum,Claire Denis,2008,68,f,2009,d
+2009-11-07,Crank 2: High Voltage,Mark Neveldine & Brian Taylor,2009,53,f,2009,d
+2009-11-08,A Serious Man,Joel Coen & Ethan Coen,2009,70,f,2009,f
+2009-11-11,Rashomon,Akira Kurosawa,1950,64,f,,f
+2009-11-14,Mother,Bong Joon-ho,2009,71,f,2010,d
+2009-11-15,"The 5,000 Fingers of Dr. T",Roy Rowland,1953,65,f,,d
+2009-11-21,Paranormal Activity,Oren Peli,2007,49,f,2009,f
+2009-11-22,Disney's A Christmas Carol,Robert Zemeckis,2009,52,f,2009,f
+2009-11-22,"Not Quite Hollywood: The Wild, Untold Story of Ozploitation!",Mark Hartley,2008,64,f,2009,d
+2009-11-26,Bronson,Nicolas Winding Refn,2008,53,f,2009,d
+2009-11-27,An Education,Lone Scherfig,2009,44,f,2009,f
+2009-11-29,Fantastic Mr. Fox,Wes Anderson,2009,77,f,2009,f
+2009-12-05,Beeswax,Andrew Bujalski,2009,67,f,2009,d
+2009-12-10,The Beaches of Agnès,Agnès Varda,2008,66,f,2009,f
+2009-12-15,Tetro,Francis Ford Coppola,2008,53,f,2009,d
+2009-12-19,Red Cliff,John Woo,2008,53,f,2009,d
+2009-12-20,The Bad Lieutenant -- Port of Call: New Orleans,Werner Herzog,2009,66,f,2009,d
+2009-12-12,Bright Star,Jane Campion,2009,58,f,2009,d
+2009-12-23,Night and Day,Hong Sang-soo,2008,70,f,2009,d
+2009-12-24,"Police, Adjective",Corneliu Porumboiu,2009,71,f,2009,d
+2010-01-01,Up in the Air,Jason Reitman,2009,57,f,2009,f
+2010-01-02,The White Ribbon,Michael Haneke,2009,65,f,2009,d
+2010-01-09,"My Son, My Son, What Have Ye Done",Werner Herzog,2009,63,f,2009,d
+2010-01-10,Il Divo,Paolo Sorrentino,2008,59,f,2009,d
+2010-01-12,Avatar,James Cameron,2009,43,f,2009,f
+2010-01-23,Broken Embraces,Pedro Almodóvar,2009,63,f,2009,d
+2010-01-27,A Town Called Panic,Stéphane Aubier & Vincent Patar,2009,55,f,2009,d
+2010-01-27,Import Export,Ulrich Seidl,2007,72,f,2009,d
+2010-01-30,Passing Strange,Spike Lee,2009,72,f,2009,d
+2010-01-29,Moon,Duncan Jones,2009,56,f,2009,d
+2010-02-14,Daisy Kenyon,Otto Preminger,1947,84,f,,d
+2010-02-28,Shutter Island,Martin Scorsese,2009,70,f,2010,f
+2010-02-27,Julia,Erick Zonca,2008,79,f,2009,d
+2010-03-14,A Prophet,Jacques Audiard,2009,64,f,2010,d
+2010-03-27,The Ghost Writer,Roman Polanski,2010,60,f,2010,f
+2010-04-03,Vincere,Marco Bellocchio,2009,68,f,2010,d
+2010-04-17,Untitled (for David Gatten),Phil Solomon and Mark Lapore,2005,78,t,,d
+2010-04-17,Rehearsals for Retirement,Phil Solomon,2007,80,t,,d
+2010-04-17,Last Days in a Lonely Place,Phil Solomon,2007,79,t,,d
+2010-04-17,"Still Raining, Still Dreaming",Phil Solomon,2009,72,t,,v
+2010-04-17,The Glass System,Mark Lapore,2000,64,t,,f
+2010-04-17,Greenberg,Noah Baumbach,2010,67,f,2010,f
+2010-04-18,Everyone Else,Maren Ade,2009,81,f,2010,f
+2010-04-22,The Mirror,Andrei Tarkovsky,1975,60,f,,f
+2010-04-24,Dogtooth,Yorgos Lanthimos,2009,79,f,2010,d
+2010-05-10,Fallen Angels,Wong Kar Wai,1995,79,f,,f
+2010-06-15,Meet Me in St. Louis,Vincente Minnelli,1944,90,f,,d
+2010-06-16,Bluebeard,Catherine Breillat,2009,58,f,2010,d
+2010-06-20,Toy Story 3,Lee Unkrich,2010,69,f,2010,f
+2010-06-25,Wild Grass,Alain Resnais,2009,62,f,2010,d
+2010-07-08,Mr. Hulot's Holiday,Jacques Tati,1953,76,f,,f
+2010-07-10,Winter's Bone,Debra Granik,2010,64,f,2010,f
+2010-07-18,Inception,Christopher Nolan,2010,70,f,2010,f
+2010-07-21,It Felt Like a Kiss,Adam Curtis,2009,72,f,,d
+2010-07-30,The Father of My Children,Mia Hansen-Løve,2009,71,f,2010,d
+2010-08-07,Restrepo,Tim Heatherington & Sebastian Junger,2010,56,f,2010,f
+2010-08-16,The Kids Are All Right,Lisa Cholodenko,2010,55,f,2010,f
+2010-08-21,Went the Day Well?,Alberto Cavalcanti,1942,70,f,,d
+2010-08-22,Bambi,David D. Hand,1942,75,f,,
+2010-09-04,Metropolitan,Whit Stillman,1990,81,f,,d
+2010-09-11,Love Exposure,Sion Sono,2008,66,f,,d
+2010-09-12,Lourdes,Jessica Hausner,2009,65,f,2010,d
+2010-09-15,8½,Frederico Fellini,1963,76,f,,f
+2010-09-19,Exit Through the Gift Shop,Bansky,2010,67,f,2010,f
+2010-09-24,Trash Humpers,Harmony Korine,2009,64,f,2010,d
+2010-09-25,Soul Kitchen,Fatih Akin,2009,68,f,2010,d
+2010-10-09,Splice,Vincenzo Natali,2009,57,f,2010,d
+2010-10-10,The Secret of Kells,Tomm Moore,2009,64,f,2010,d
+2010-10-12,The Town,Ben Affleck,2010,54,f,2010,f
+2010-10-15,Enter the Void,Gaspar Noé;,2009,65,f,2010,d
+2010-10-16,Catfish,Henry Joost & Ariel Schulman,2010,59,f,2010,f
+2010-10-24,The Social Network,David Fincher,2010,65,f,2010,f
+2010-11-13,Carlos,Olivier Assayas,2010,61,f,2010,d
+2010-12-10,The Red Shoes,Michael Powell & Emeric Pressburger,1948,80,f,,d
+2010-12-18,Hadewijch,Bruno Dumont,2009,67,f,2010,d
+2010-12-16,House,Nobuhiko Obayashi,1977,79,f,,d
+2010-12-23,White Material,Claire Denis,2009,65,f,2010,d
+2010-12-25,True Grit,Joel Coen & Ethan Coen,2010,68,f,2010,f
+2010-12-27,Black Swan,Darren Aronofsky,2010,72,f,2010,f
+2010-12-31,How Do You Know,James L. Brooks,2010,52,f,2010,f
+2010-12-31,The Fighter,David O. Russell,2010,56,f,2010,f
+2011-01-03,Amer,Hélène Cattet & Bruno Forzani,2009,69,f,2010,d
+2011-01-09,Scott Pilgrim vs. the World,Edgar Wright,2010,60,f,2010,d
+2011-01-12,127 Hours,Danny Boyle,2010,64,f,2010,d
+2011-01-14,Somewhere,Sofia Coppola,2010,65,f,2010,d
+2011-01-15,The King's Speech,Tom Hooper,2010,50,f,2010,d
+2011-01-16,Tangled,Nathan Greno & Byron Howard,2010,64,f,2010,f
+2011-01-16,Vengeance,Johnnie To,2009,65,f,2010,d
+2011-01-21,Another Year,Mike Leigh,2010,66,f,2010,d
+2011-01-22,Despicable Me,Pierre Coffin & Chris Renaud,2010,48,f,2010,d
+2011-01-22,I Love You Phillip Morris,Glenn Ficarra & John Requa,2009,67,f,2010,d
+2011-01-23,Four Lions,Chris Morris,2010,66,f,2010,d
+2011-01-26,Blue Valentine,Derek Cianfrance,2010,54,f,2010,d
+2011-01-28,Rabbit Hole,John Cameron Mitchell,2010,53,f,2010,d
+2011-01-29,Animal Kingdom,David Michôd,2010,52,f,2010,d
+2011-01-29,The Time that Remains,Elia Suleiman,2010,60,f,2011,d
+2011-02-04,The Other Guys,Adam McKay,2010,42,f,2010,d
+2011-02-12,Band of Outsiders,Jean-Luc Godard,1964,85,f,,d
+2011-03-18,The Adjustment Bureau,George Nolfi,2011,40,f,2011,f
+2011-03-19,Leave Her to Heaven,John M. Stahl,1945,79,f,,d
+2011-03-20,Rango,Gore Verbinski,2011,63,f,2011,f
+2011-03-20,Rubber,Quentin Dupieux,2010,61,f,2011,d
+2011-04-01,Poetry,Lee Chang-dong,2010,70,f,2011,d
+2011-04-01,How I Ended This Summer,Aleksei Popogrebsky,2010,72,f,2011,f
+2011-04-02,Meek's Cutoff,Kelly Reichardt,2010,76,f,2011,f
+2011-04-03,"Tuesday, After Christmas",Radu Muntean,2010,73,f,2011,f
+2011-04-01,Nimbus Smile,Lewis Klahr,2009,60,t,,d
+2011-04-01,These Hammers Don't Hurt Us,Michael Robinson,2010,72,t,,d
+2011-04-01,Threnody,Nathaniel Dorsky,2004,55,t,,f
+2011-04-01,"Ah, Liberty!",Ben Rivers,2008,75,t,,f
+2011-04-01,Trypps #7 (Badlands),Ben Russell,2010,63,t,,d
+2011-04-08,13 Assassins,Takashi Miike,2010,68,f,2011,d
+2011-04-13,Kaboom,Gregg Araki,2010,69,f,2011,f
+2011-04-16,Harakiri,Masaki Kobayashi,1962,90,f,,d
+2011-05-01,Certified Copy,Abbas Kiarostami,2010,82,f,2011,f
+2011-05-07,Heartbeats,Xavier Dolan,2010,67,f,2011,d
+2011-05-14,Miniatures – Many Berlin Artists in Hoisdorf,Peter Tscherkassky,1983,68,t,,d
+2011-05-14,Motion Picture (La sortie des ouvriers de l'usine Lumière à Lyon),Peter Tscherkassky,1984,64,t,,d
+2011-05-14,Manufraktur,Peter Tscherkassky,1985,67,t,,d
+2011-05-14,L'arrivée,Peter Tscherkassky,1998,75,t,,d
+2011-05-14,Get Ready,Peter Tscherkassky,1999,73,t,,d
+2011-05-14,Outer Space,Peter Tscherkassky,1999,91,t,,d
+2011-05-14,Dream Work,Peter Tscherkassky,2002,84,t,,d
+2011-06-17,Super 8,J.J. Abrams,2011,60,f,2011,f
+2011-06-18,A Star is Born,George Cukor,1954,80,f,,d
+2011-06-22,Bonnie and Clyde,Arthur Penn,1967,78,f,,d
+2011-06-23,Exotica,Atom Egoyan,1994,93,f,,d
+2011-06-24,David Holzman's Diary,Jim McBride,1967,76,f,,d
+2011-07-10,Unforgiven,Clint Eastwood,1992,95,f,,d
+2011-07-16,Manhattan,Woody Allen,1979,88,f,,d
+2011-07-23,The Trip,Michael Winterbottom,2010,58,f,2011,d
+2011-07-24,The Tree of Life,Terrence Malick,2011,75,f,2011,f
+2011-08-04,Midnight in Paris,Woody Allen,2011,36,f,2011,f
+2011-08-06,Cold Weather,Aaron Katz,2010,64,f,2011,d
+2011-08-09,Source Code,Duncan Jones,2011,51,f,2011,d
+2011-08-13,Uncle Boonmee Who Can Recall His Past Lives,Apichatpong Weerasethakul,2010,76,f,2011,d
+2011-08-20,Naked,Mike Leigh,1993,84,f,,d
+2011-08-21,The Short and Curlies,Mike Leigh,1987,50,t,,d
+2011-08-25,Potiche (Trophy Wife),François Ozon,2010,56,f,2011,d
+2011-08-28,Cave of Forgotten Dreams [2D version],Werner Herzog,2010,61,f,2011,f
+2011-08-30,Rise of the Planet of the Apes,Rupert Wyatt,2011,66,f,2011,f
+2011-09-02,The Myth of the American Sleepover,David Robert Mitchell,2010,42,f,2011,d
+2011-09-03,Limitless,Neil Burger,2011,50,f,2011,d
+2011-09-06,Attack the Block,Joe Cornish,2011,65,f,2011,c
+2011-09-07,Beginners,Mike Mills,2010,70,f,2011,f
+2011-09-10,The Arbor,Clio Barnard,2010,72,f,2011,d
+2011-09-18,Of Gods and Men,Xavier Beauvois,2010,63,f,2011,d
+2011-09-24,Drive,Nicolas Winding Refn,2011,75,f,2011,f
+2011-09-27,Close-Up,Abbas Kiarostami,1990,79,f,,d
+2011-09-29,The Guard,John Michael McDonagh,2011,62,f,2011,f
+2011-10-01,Bridesmaids,Paul Feig,2011,52,f,2011,d
+2011-10-04,Le Quattro Volte,Michaelangelo Frammartino,2010,69,f,2011,d
+2011-10-07,Tabloid,Errol Morris,2011,66,f,2011,f
+2011-10-09,Yojimbo,Akira Kirosawa,1961,79,f,,d
+2011-10-11,Submarine,Richard Ayoade,2010,56,f,2011,d
+2011-10-15,Melancholia,Lars Von Trier,2011,56,f,2011,d
+2011-10-17,Leap Year (Año bisiesto),Michael Rowe,2010,73,f,2011,d
+2011-10-29,Terri,Azazel Jacobs ,2011,67,f,2011,d
+2011-10-29,Winnie the Pooh,Stephen Anderson & Don Hall,2011,64,f,2011,d
+2011-10-21,Harmful Insect,Akihiko Shoita,2001,79,f,,f
+2011-11-03,Moneyball,Bennett Miller,2011,65,f,2011,f
+2011-11-11,House of Pleasures,Bertrand Bonello,2011,74,f,2011,d
+2011-11-12,Putty Hill,Matt Porterfield,2010,64,f,2011,d
+2011-11-15,Shit Year,Cam Archer,2010,70,f,2011,d
+2011-12-03,Weekend,Andrew Haigh,2011,73,f,2011,c
+2011-12-04,Hugo,Martin Scorsese,2011,55,f,2011,c
+2011-12-09,Rapt,Lucas Belvaux,2009,71,f,2011,d
+2011-12-11,The Descendants,Alexander Payne,2011,53,f,2011,c
+2011-12-16,Take Shelter,Jeff Nichols,2011,61,f,2011,d
+2011-12-17,Le Havre,Aki Kaurismäki,2011,55,f,2011,d
+2011-12-17,Martha Marcy May Marlene,Sean Durkin,2011,77,f,2011,d
+2011-12-20,Project Nim,James Marsh,2011,56,f,2011,d
+2011-12-21,The Interrupters,Steve James,2011,59,f,2011,d
+2011-12-22,The Girl with the Dragon Tattoo,David Fincher,2011,54,f,2011,c
+2011-12-24,We Need to Talk About Kevin,Lynne Ramsay,2011,60,f,2011,d
+2011-12-27,Senna,Asif Kapadia,2010,58,f,2011,d
+2011-12-29,Bellflower,Evan Glodell,2011,64,f,2011,d
+2011-12-30,Shame,Steve McQueen,2011,63,f,2011,d
