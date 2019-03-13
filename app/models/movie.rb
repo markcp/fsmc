@@ -1,4 +1,4 @@
-class Movie < ActiveRecord::Base
+class Movie < ApplicationRecord
   has_many :viewings, dependent: :destroy
   accepts_nested_attributes_for :viewings,
                                 reject_if: proc { |attributes| attributes['date'].blank? },

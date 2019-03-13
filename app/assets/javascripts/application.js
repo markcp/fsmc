@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require foundation
-//= require jquery-ui/datepicker
+//= require jquery-ui/widgets/datepicker
 //= require_tree .
 
 $(function(){ $(document).foundation(); });

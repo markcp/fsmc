@@ -1,4 +1,4 @@
-class Format < ActiveRecord::Base
+class Format < ApplicationRecord
   has_many :viewings
 
   validates :name, presence: true

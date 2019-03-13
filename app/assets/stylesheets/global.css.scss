@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
   font-size: 2.5em;
   letter-spacing: 1px;
-  margin: 0;
+  margin: 0 0 0 2.5em;
   padding: 0;
 }
 
@@ -26,12 +26,22 @@ a:link {
 }
 
 // header
+header {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  margin-left: .7em;
+  margin-top: 0;
+  padding: 0;
+}
 
 h1 img {
   max-width: none;
 }
 
-nav {
+header {
   font-family: 'Oswald', serif;
   font-weight: bold;
 }

@@ -1,4 +1,4 @@
-class Viewing < ActiveRecord::Base
+class Viewing < ApplicationRecord
   require 'csv'
 
   belongs_to :movie
