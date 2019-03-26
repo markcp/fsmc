@@ -1,4 +1,5 @@
 class Movie < ApplicationRecord
+  require 'csv'
   has_many :viewings, dependent: :destroy
   accepts_nested_attributes_for :viewings,
                                 reject_if: proc { |attributes| attributes['date'].blank? },
@@ -24,5 +25,39 @@ class Movie < ApplicationRecord
 
   def director_and_year_display
     " (" + director + ", " + year.to_s + ") "
+  end
+
+  def self.import
+    CSV.open('new_file_2.csv', 'wb') do |new_file|
+      CSV.foreach('all_movies_with_no_viewing.csv') do |row|
+        movie = Movie.where(title: row[0].strip, year: row[2].strip).first
+        if movie
+          new_file << row
+          puts row[0].strip + ',' + row[1].strip + "," + row[2].strip + "," + row[3].strip + "," + row[4].strip
+        end
+      end
+    end
+  end
+
+  def self.upload
+    CSV.foreach('movie_upload_no_viewing.csv') do |row|
+      movie = Movie.new
+      movie.title = row[0]
+      movie.director = row[1]
+      movie.year = row[2]
+      movie.current_rating = row[3]
+      if row[4] == 't'
+        movie.short = true
+      else
+        movie.short = false
+      end
+      movie.save
+    end
+  end
+
+  def self.print_years
+    CSV.foreach('all_movies_with_no_viewing.csv') do |row|
+      puts row[2]
+    end
   end
 end
