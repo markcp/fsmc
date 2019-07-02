@@ -4,6 +4,6 @@
 <ul>
 <% @movies.each_with_index do |movie, index| %>
   <% i = index + 1 %>
-  <li><%= i.to_s + '. ' + movie.display %> <% if signed_in? %><span class="edit-link"><%= link_to 'e', edit_movie_path(movie) %></span><% end %></li>
+  <li><%= i.to_s + '. ' + movie.display %> <span class="rating"><%= movie.current_rating %></span> <% if signed_in? %><span class="edit-link"><%= link_to 'e', edit_movie_path(movie) %></span><% end %></li>
 <% end %>
 </ul>

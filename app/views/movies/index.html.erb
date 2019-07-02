@@ -3,7 +3,7 @@
 <% if @by && @by == 'rating' %>
   <ul>
     <% @movies.each do |movie| %>
-      <li><%= movie.display %> <%= movie.current_rating %>
+      <li><%= movie.display %> <span class="rating"><%= movie.current_rating %></span>
         <% if signed_in? %>
           <span class="edit-link"><%= link_to 'e', edit_movie_path(movie) %></span>
         <% end %>
@@ -13,7 +13,7 @@
 <% elsif @by && @by == 'title' %>
   <ul>
     <% @movies.each do |movie| %>
-      <li><%= movie.display %> <%= movie.current_rating %></li>
+      <li><%= movie.display %> <span class="rating"><%= movie.current_rating %></span></li>
     <% end %>
   </ul>
 <% else %>
@@ -27,7 +27,7 @@
       <ul>
       <% year_index = year_index + 1 %>
     <% end %>
-    <li><%= movie.display_no_date %> <%= movie.current_rating %><li>
+    <li><%= movie.display_no_date %> <span class="rating"><%= movie.current_rating %></span><li>
   <% end %>
   </ul>
 <% end %>
