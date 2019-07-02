@@ -1,5 +1,5 @@
 class MoviesController < ApplicationController
-  before_action :signed_in_user, except: [ :by_rating, :by_title, :all_by_rating, :all_by_title, :all_by_year ]
+  before_action :signed_in_user, except: [ :index, :by_rating, :by_title, :all_by_rating, :all_by_title, :all_by_year ]
 
   def index
     if params[:by] == 'rating'
@@ -22,25 +22,8 @@ class MoviesController < ApplicationController
     @movies = Movie.where(skandies_year: @year).order("title_index").all
   end
 
-  def all_by_rating
-    @movies = Movie.all.order("current_rating DESC")
-  end
-
-  def all_by_title
-    @movies = Movie.all.order("title_index")
-  end
-
-  def all_by_year
-    @movies = Movie.all.order("year, current_rating DESC")
-  end
-
   def all_no_viewing
-    @movies = []
-    Movie.all.order("year, title_index").each do |movie|
-      if movie.viewings.length == 0
-        @movies << movie
-      end
-    end
+    @movies = Movie.where.not(id: Viewing.select(:movie_id)).order("year")
   end
 
   def search
