@@ -1,1 +1,33 @@
 <h1>Master Film List</h1>
+
+<% if @by && @by == 'rating' %>
+  <ul>
+    <% @movies.each do |movie| %>
+      <li><%= movie.display %> <%= movie.current_rating %>
+        <% if signed_in? %>
+          <span class="edit-link"><%= link_to 'e', edit_movie_path(movie) %></span>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+<% elsif @by && @by == 'title' %>
+  <ul>
+    <% @movies.each do |movie| %>
+      <li><%= movie.display %> <%= movie.current_rating %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <% year_index = 1893 %>
+  <h4>1893</h4>
+  <ul>
+  <% @movies.each do |movie| %>
+    <% if movie.year != year_index %>
+      </ul>
+      <h4><%= movie.year.to_s %></h4>
+      <ul>
+      <% year_index = year_index + 1 %>
+    <% end %>
+    <li><%= movie.display_no_date %> <%= movie.current_rating %><li>
+  <% end %>
+  </ul>
+<% end %>

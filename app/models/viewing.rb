@@ -12,7 +12,7 @@ class Viewing < ApplicationRecord
   default_scope { order('date DESC') }
 
   def date_display_format
-    date.strftime("%d %b") + ". "
+    date.strftime("%d %b")
   end
 
   def director_and_year_display_format

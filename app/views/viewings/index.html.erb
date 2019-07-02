@@ -5,6 +5,13 @@
 </div>
 <ul class="movie-list">
   <% @viewings.each do |viewing| %>
-    <li><%= viewing.date_display_format %> <%= viewing.movie.title %> <%= viewing.director_and_year_display_format %> <span class="rating"><%= viewing.rating %></span> <% if signed_in? %><span class="edit-link"><%= link_to 'e', edit_movie_path(viewing.movie) %></span><% end %></li>
-    <% end %>
+    <li>
+      <span class="viewing_date"><%= viewing.date_display_format %></span>.
+      <%= viewing.movie.display %>
+      <span class="rating"><%= viewing.rating %></span>
+      <% if signed_in? %>
+        <span class="edit-link"><%= link_to 'e', edit_movie_path(viewing.movie) %></span>
+      <% end %>
+    </li>
+  <% end %>
 </ul>

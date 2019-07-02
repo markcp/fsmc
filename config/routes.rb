@@ -15,6 +15,7 @@ Fsmc::Application.routes.draw do
     get 'all_by_year', on: :collection
     get 'by_rating', on: :collection
     get 'by_title', on: :collection
+    get 'all_no_viewing', on: :collection
   end
 
   match '/signin', to: 'sessions#new', via: 'get'

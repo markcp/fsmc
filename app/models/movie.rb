@@ -15,16 +15,20 @@ class Movie < ApplicationRecord
   validates :short, inclusion: { in: [ true, false] }
   validates :current_rating, numericality: { greater_than: 0, less_than_or_equal_to: 100 }
 
+  def display
+    title + ' (' + director + ', ' + year.to_s + ")"
+  end
+
+  def display_no_date
+    title + ' (' + director + ')'
+  end
+
   def build_title_index
     self.title_index = self.title.sub(/(?i)^(The|A|An) (.*)$/,'\2, \1');
   end
 
   def self.search(title)
     where(title: title)
-  end
-
-  def director_and_year_display
-    " (" + director + ", " + year.to_s + ") "
   end
 
   def self.import

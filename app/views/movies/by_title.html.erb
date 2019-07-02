@@ -7,6 +7,6 @@
 <ul class="movie-list">
 <% @movies.each do |movie| %>
   <li>
-    <%= movie.title %> <%= movie.director_and_year_display %> <span class="rating"><%= movie.current_rating %></span> <% if signed_in? %><span class="edit-link"><%= link_to 'e', edit_movie_path(movie) %></span><% end %><br/>
+    <%= movie.display %> <span class="rating"><%= movie.current_rating %></span> <% if signed_in? %><span class="edit-link"><%= link_to 'e', edit_movie_path(movie) %></span><% end %><br/>
   </li>
 <% end %>
